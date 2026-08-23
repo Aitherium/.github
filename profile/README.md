@@ -35,12 +35,11 @@ Every brick below **installs on its own, runs offline, and needs no account.**
 | [awnix](https://aitherium.github.io/awnix/) | A Linux you can hand to an agent — immutable base, capabilities included. | `see the repo — image builder` | — | — |
 | [awrecover](https://aitherium.github.io/awrecover/) | Labelled snapshots with an all-or-nothing restore. | `pip install awrecover` | — | — |
 | [awrelay](https://aitherium.github.io/awrelay/) | Portable agent messaging — findings, alerts, coordination. | `pip install awrelay` | — | — |
-| `awask` | Your agent asks you a question — and acts on your answer. | — | — | — |
 | [awmail](https://aitherium.github.io/awmail/) | Give an agent an email address — send, and actually receive. | `pip install awmail` | — | — |
 | [awnet](https://aitherium.github.io/awnet/) | The agentic web — agents host a mesh, and agents join one. | `pip install awnet` | — | — |
 | [awfind](https://aitherium.github.io/awfind/) | A portable search client — query, results, ranking. | `pip install awfind` | — | — |
 | [awbrowse](https://aitherium.github.io/awbrowse/) | A portable browser client — navigate, console, network, DOM, screenshot. | `pip install awbrowse` | — | — |
-| [awknowledge](https://aitherium.github.io/awknowledge/) | How to run a coding agent so the result survives — the laws, with evidence. | `read it — https://aitherium.github.io/awknowledge/` | 31 | 0 |
+| [awknowledge](https://aitherium.github.io/awknowledge/) | How to run a coding agent so the result survives — the laws, with evidence. | `read it — https://aitherium.github.io/awskills/codex.html` | 31 | 0 |
 | [aitherkvcache](https://aitherium.github.io/aitherkvcache/) | Near-optimal KV cache quantization for LLM inference — sub-byte compression. | `pip install aither-kvcache` | 65 | 8 |
 | [AitherZero](https://aitherium.github.io/AitherZero/) | PowerShell 7+ automation framework — numbered, self-describing scripts. | `git clone https://github.com/Aitherium/AitherZero` | 1,550 | 35 |
 | [AitherConnect](https://aitherium.github.io/AitherConnect/) | Browser extension — federated AI search, page context, and the Living OS overlay. | `load unpacked — see the repo` | — | — |
@@ -50,9 +49,10 @@ Every brick below **installs on its own, runs offline, and needs no account.**
 | [awrepl](https://aitherium.github.io/awrepl/) | A REPL an agent can actually use — state that survives between turns. | `pip install awrepl` | — | — |
 | [awresearch](https://aitherium.github.io/awresearch/) | Ask a research question, get a cited report you can check. | `pip install awresearch` | — | — |
 | [awpredict](https://aitherium.github.io/awpredict/) | Predict what your environment does next, and how surprised you were. | `pip install awpredict` | — | — |
-| `awevolve` | Point an agent at a file and a command that scores it, and let it improve. | — | — | — |
 | `awsh` | Your terminal answers you -- type a question where a command would go. | — | — | — |
 | [awkno](https://aitherium.github.io/awkno/) | The man page for the Aither World — every brick, stack and law, offline. | `pip install awkno` | — | — |
+| `awask` | Your agent asks you a question — and acts on your answer. | — | — | — |
+| `awevolve` | Point an agent at a file and a command that scores it, and let it improve. | — | — | — |
 
 *Files and tests are quoted from each repository's own published manifest, not
 counted here. A dash means that repo publishes no manifest yet — never zero,
