@@ -7,7 +7,7 @@ Every brick below **installs on its own, runs offline, and needs no account.**
 
 ![bricks](https://img.shields.io/badge/bricks-41-4c6ef5)
 ![publishing metrics](https://img.shields.io/badge/publishing%20live%20metrics-40%2F41-4c6ef5)
-![planned](https://img.shields.io/badge/named%20%26%20not%20yet%20built-8-8a8a99)
+![planned](https://img.shields.io/badge/named%20%26%20not%20yet%20built-9-8a8a99)
 
 ➤ **[Browse the whole ecosystem](https://aitherium.github.io/)** — live, from each repo's own manifest.
 
@@ -66,7 +66,7 @@ Every brick below **installs on its own, runs offline, and needs no account.**
 | [awgym](https://aitherium.github.io/awgym/) | An ARC training gym — a game a world model can watch, and six roles that play through it. | `pip install awgym` | 46 | 4 |
 | [awpredict](https://aitherium.github.io/awpredict/) | Predict what your environment does next, and how surprised you were. | `pip install git+https://github.com/Aitherium/awpredict.git` | 38 | 8 |
 | `awevolve` | Point an agent at a file and a command that scores it, and let it improve. | — | — | — |
-| [awsh](https://aitherium.github.io/awsh/) | Your terminal answers you -- type a question where a command would go. | `npm i -g @aitherium/awsh` | 1,144 | 47 |
+| [awsh](https://aitherium.github.io/awsh/) | Your terminal answers you -- type a question where a command would go. | `npm i -g @aitherium/awsh` | 1,142 | 47 |
 | `awrise` | Wake an agent on a schedule, let it do one thing, and put it back to sleep. | — | — | — |
 | [awkno](https://aitherium.github.io/awkno/) | The man page for the Aither World — every brick, stack and law, offline. | `pip install awkno` | 128 | 1 |
 | `awwall` | Say what a workload may reach, and watch everything else fail closed. | — | — | — |
@@ -98,7 +98,7 @@ because a fabricated zero reads as a measurement.*
 Listed on purpose. A named absence can be chased; a silent one is a thing
 nobody remembers.
 
-`awpool` · `awstorage` · `awswarm` · `awcache` · `awsprite` · `awbonsai` · `awrouter` · `awdata`
+`awpool` · `awstorage` · `awspaces` · `awswarm` · `awcache` · `awsprite` · `awbonsai` · `awrouter` · `awdata`
 
 ---
 
