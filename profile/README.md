@@ -11,8 +11,8 @@ whole rule: if a brick's one-line pitch cannot be written without naming a sibli
 it is not a brick — it is a subsystem of something else, and shipping it separately
 would teach you to adopt a dependency you never wanted.
 
-![bricks](https://img.shields.io/badge/bricks-40-4c6ef5)
-![publishing metrics](https://img.shields.io/badge/publishing%20live%20metrics-40%2F40-4c6ef5)
+![bricks](https://img.shields.io/badge/bricks-42-4c6ef5)
+![publishing metrics](https://img.shields.io/badge/publishing%20live%20metrics-42%2F42-4c6ef5)
 ![planned](https://img.shields.io/badge/named%20%26%20not%20yet%20built-12-8a8a99)
 
 ➤ **[Browse the whole ecosystem](https://aitherium.github.io/)** — live, from each repo's own manifest.
@@ -114,8 +114,8 @@ alone, offline, and check what it claims.
 | `awrise` | Wake an agent on a schedule, let it do one thing, and put it back to sleep. | — | — | — |
 | [awkno](https://aitherium.github.io/awkno/) | The man page for the Aither World — every brick, stack and law, offline. | `pip install awkno` | 130 | 1 |
 | `awwall` | Say what a workload may reach, and watch everything else fail closed. | — | — | — |
-| `awembed` | Train an embedding model that knows your corpus, and prove it beats the big one. | — | — | — |
-| `awtax` | Turn any tax PDF -- returns, W-2, 1099, statements, even scans -- into structured data you can check. | — | — | — |
+| [awembed](https://aitherium.github.io/awembed/) | Train an embedding model that knows your corpus, and prove it beats the big one. | `pip install awembed` | — | — |
+| [awtax](https://aitherium.github.io/awtax/) | Turn any tax PDF -- returns, W-2, 1099, statements, even scans -- into structured data you can check. | `git clone https://github.com/Aitherium/awtax` | — | — |
 
 *Files and tests are quoted from each repository's own published manifest, not
 counted here. A dash means that repo publishes no manifest yet — never zero,
