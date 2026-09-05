@@ -13,7 +13,7 @@ would teach you to adopt a dependency you never wanted.
 
 ![bricks](https://img.shields.io/badge/bricks-40-4c6ef5)
 ![publishing metrics](https://img.shields.io/badge/publishing%20live%20metrics-40%2F40-4c6ef5)
-![planned](https://img.shields.io/badge/named%20%26%20not%20yet%20built-11-8a8a99)
+![planned](https://img.shields.io/badge/named%20%26%20not%20yet%20built-12-8a8a99)
 
 ➤ **[Browse the whole ecosystem](https://aitherium.github.io/)** — live, from each repo's own manifest.
 
@@ -148,7 +148,7 @@ and no story is how a working thing reaches nobody.
 Listed on purpose. A named absence can be chased; a silent one is a thing
 nobody remembers.
 
-`awpool` · `awstorage` · `awspaces` · `awswarm` · `awcache` · `awsprite` · `awbonsai` · `awrouter` · `awdata` · `awmod` · `awlog`
+`awpool` · `awstorage` · `awspaces` · `awswarm` · `awcache` · `awsprite` · `awbonsai` · `awrouter` · `awdata` · `awmod` · `awlog` · `awflow`
 
 ---
 
