@@ -11,8 +11,8 @@ whole rule: if a brick's one-line pitch cannot be written without naming a sibli
 it is not a brick — it is a subsystem of something else, and shipping it separately
 would teach you to adopt a dependency you never wanted.
 
-![bricks](https://img.shields.io/badge/bricks-44-4c6ef5)
-![publishing metrics](https://img.shields.io/badge/publishing%20live%20metrics-43%2F44-4c6ef5)
+![bricks](https://img.shields.io/badge/bricks-43-4c6ef5)
+![publishing metrics](https://img.shields.io/badge/publishing%20live%20metrics-43%2F43-4c6ef5)
 ![planned](https://img.shields.io/badge/named%20%26%20not%20yet%20built-10-8a8a99)
 
 ➤ **[Browse the whole ecosystem](https://aitherium.github.io/)** — live, from each repo's own manifest.
@@ -83,7 +83,7 @@ alone, offline, and check what it claims.
 | [awnboard](https://aitherium.github.io/awnboard/) | A front gate you can put in front of anything, and hand someone the key to. | `pip install awnboard` | 19 | 2 |
 | [awnix](https://aitherium.github.io/awnix/) | A Linux you can hand to an agent — immutable base, capabilities included. | `see the repo — image builder` | 10 | 0 |
 | [awrecover](https://aitherium.github.io/awrecover/) | Labelled snapshots with an all-or-nothing restore. | `pip install git+https://github.com/Aitherium/awrecover.git` | 19 | 3 |
-| [awstorage](https://aitherium.github.io/awstorage/) | Every drive on every node, indexed, classified and diffed -- so you can see what you own before you delete it. | `pip install awstorage` | — | — |
+| `awstorage` | Every drive on every node, indexed, classified and diffed -- so you can see what you own before you delete it. | — | — | — |
 | [awrelay](https://aitherium.github.io/awrelay/) | Portable agent messaging — findings, alerts, coordination. | `pip install awrelay` | 25 | 3 |
 | `awask` | Your agent asks you a question — and acts on your answer. | — | — | — |
 | [awmail](https://aitherium.github.io/awmail/) | Give an agent an email address — send, and actually receive. | `pip install awmail` | 20 | 2 |
