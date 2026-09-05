@@ -11,8 +11,8 @@ whole rule: if a brick's one-line pitch cannot be written without naming a sibli
 it is not a brick — it is a subsystem of something else, and shipping it separately
 would teach you to adopt a dependency you never wanted.
 
-![bricks](https://img.shields.io/badge/bricks-43-4c6ef5)
-![publishing metrics](https://img.shields.io/badge/publishing%20live%20metrics-43%2F43-4c6ef5)
+![bricks](https://img.shields.io/badge/bricks-42-4c6ef5)
+![publishing metrics](https://img.shields.io/badge/publishing%20live%20metrics-42%2F42-4c6ef5)
 ![planned](https://img.shields.io/badge/named%20%26%20not%20yet%20built-10-8a8a99)
 
 ➤ **[Browse the whole ecosystem](https://aitherium.github.io/)** — live, from each repo's own manifest.
@@ -62,7 +62,7 @@ alone, offline, and check what it claims.
 |---|---|---|---|---|
 | [awdk](https://aitherium.github.io/awdk/) | Build AI agent fleets — 3 lines, any backend, local or cloud. | `pip install awdk` | 1,269 | 290 |
 | [awskills](https://aitherium.github.io/awskills/) | Portable agent skills — self-contained procedures an agent loads on demand. | `git clone https://github.com/Aitherium/awskills` | 155 | 1 |
-| [awpack](https://aitherium.github.io/awpack/) | First-party agent packs — the ones we build, versioned and installable on their own. | `git clone https://github.com/Aitherium/awpack` | 15 | 0 |
+| `awpack` | First-party agent packs — the ones we build, versioned and installable on their own. | — | — | — |
 | [awm](https://aitherium.github.io/awm/) | A portable, scoped agent memory. | `pip install awm` | 17 | 0 |
 | `awdaemons` | The AitherOS daemons as one file — no Python, no signing, no install. | — | — | — |
 | [awnode](https://aitherium.github.io/awnode/) | A lightweight local gateway — bridges your apps to the AI backends you chose. | `pip install awnode` | 50 | 4 |
