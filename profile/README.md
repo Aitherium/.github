@@ -119,7 +119,7 @@ alone, offline, and check what it claims.
 | [awembed](https://aitherium.github.io/awembed/) | Train an embedding model that knows your corpus, and prove it beats the big one. | `pip install awembed` | — | — |
 | [awtax](https://aitherium.github.io/awtax/) | Turn any tax PDF -- returns, W-2, 1099, statements, even scans -- into structured data you can check. | `git clone https://github.com/Aitherium/awtax` | — | — |
 | `awflow` | A deterministic workflow runtime — chain agent calls with journal replay and budget control. | — | — | — |
-| [awsettings](https://aitherium.github.io/awsettings/) | Your agent's permissions and config, following you to the next machine. | `pip install awsettings` | — | — |
+| [awsettings](https://aitherium.github.io/awsettings/) | Your agent's permissions and config, following you to the next machine. | `pip install git+https://github.com/Aitherium/awsettings.git` | — | — |
 
 *Files and tests are quoted from each repository's own published manifest, not
 counted here. A dash means that repo publishes no manifest yet — never zero,
