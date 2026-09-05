@@ -11,9 +11,9 @@ whole rule: if a brick's one-line pitch cannot be written without naming a sibli
 it is not a brick — it is a subsystem of something else, and shipping it separately
 would teach you to adopt a dependency you never wanted.
 
-![bricks](https://img.shields.io/badge/bricks-42-4c6ef5)
-![publishing metrics](https://img.shields.io/badge/publishing%20live%20metrics-42%2F42-4c6ef5)
-![planned](https://img.shields.io/badge/named%20%26%20not%20yet%20built-12-8a8a99)
+![bricks](https://img.shields.io/badge/bricks-44-4c6ef5)
+![publishing metrics](https://img.shields.io/badge/publishing%20live%20metrics-43%2F44-4c6ef5)
+![planned](https://img.shields.io/badge/named%20%26%20not%20yet%20built-10-8a8a99)
 
 ➤ **[Browse the whole ecosystem](https://aitherium.github.io/)** — live, from each repo's own manifest.
 
@@ -64,6 +64,7 @@ alone, offline, and check what it claims.
 | [awskills](https://aitherium.github.io/awskills/) | Portable agent skills — self-contained procedures an agent loads on demand. | `git clone https://github.com/Aitherium/awskills` | 155 | 1 |
 | [awpack](https://aitherium.github.io/awpack/) | First-party agent packs — the ones we build, versioned and installable on their own. | `git clone https://github.com/Aitherium/awpack` | 15 | 0 |
 | [awm](https://aitherium.github.io/awm/) | A portable, scoped agent memory. | `pip install awm` | 17 | 0 |
+| `awdaemons` | The AitherOS daemons as one file — no Python, no signing, no install. | — | — | — |
 | [awnode](https://aitherium.github.io/awnode/) | A lightweight local gateway — bridges your apps to the AI backends you chose. | `pip install awnode` | 50 | 4 |
 | [awrun](https://aitherium.github.io/awrun/) | A priority-aware queue and dispatcher for agentic runs and ad-hoc CI builds. It also judges whether the runner pool is big enough for the queue it is draining, and can ask a host to grow it -- reserving capacity is zero-sum, so a saturated pool needs more of it, not a different share of it. | `pip install awrun` | 22 | 1 |
 | [awgraph](https://aitherium.github.io/awgraph/) | A semantic code graph for agents — AST + tree-sitter, call graphs. | `pip install awgraph` | 32 | 6 |
@@ -82,6 +83,7 @@ alone, offline, and check what it claims.
 | [awnboard](https://aitherium.github.io/awnboard/) | A front gate you can put in front of anything, and hand someone the key to. | `pip install awnboard` | 19 | 2 |
 | [awnix](https://aitherium.github.io/awnix/) | A Linux you can hand to an agent — immutable base, capabilities included. | `see the repo — image builder` | 10 | 0 |
 | [awrecover](https://aitherium.github.io/awrecover/) | Labelled snapshots with an all-or-nothing restore. | `pip install git+https://github.com/Aitherium/awrecover.git` | 19 | 3 |
+| [awstorage](https://aitherium.github.io/awstorage/) | Every drive on every node, indexed, classified and diffed -- so you can see what you own before you delete it. | `pip install awstorage` | — | — |
 | [awrelay](https://aitherium.github.io/awrelay/) | Portable agent messaging — findings, alerts, coordination. | `pip install awrelay` | 25 | 3 |
 | `awask` | Your agent asks you a question — and acts on your answer. | — | — | — |
 | [awmail](https://aitherium.github.io/awmail/) | Give an agent an email address — send, and actually receive. | `pip install awmail` | 20 | 2 |
@@ -117,6 +119,7 @@ alone, offline, and check what it claims.
 | [awembed](https://aitherium.github.io/awembed/) | Train an embedding model that knows your corpus, and prove it beats the big one. | `pip install awembed` | — | — |
 | [awtax](https://aitherium.github.io/awtax/) | Turn any tax PDF -- returns, W-2, 1099, statements, even scans -- into structured data you can check. | `git clone https://github.com/Aitherium/awtax` | — | — |
 | `awflow` | A deterministic workflow runtime — chain agent calls with journal replay and budget control. | — | — | — |
+| [awsettings](https://aitherium.github.io/awsettings/) | Your agent's permissions and config, following you to the next machine. | `pip install awsettings` | — | — |
 
 *Files and tests are quoted from each repository's own published manifest, not
 counted here. A dash means that repo publishes no manifest yet — never zero,
@@ -129,7 +132,7 @@ assembly is documented; `partial` means the pieces ship and wiring them is still
 yours to do. Saying which is which is the point — a stack that ships every part
 and no story is how a working thing reaches nobody.
 
-- **The bare agent VM** (partial) — `awnix`, `awdk`, `awskills`, `awkno`
+- **The bare agent VM** (partial) — `awnix`, `awdk`, `awskills`, `awkno`, `awsettings`
 - **Senses** (ready) — `awfind`, `awbrowse`, `awvoice`, `awvision`, `awscreen`, `awdk`
 - **Avatar ensemble** (planned) — `awdk`, `awsh`, `awvoice`, `awvision`, `awsprite`
 - **Provenance** (partial) — `awseal`, `awshare`, `awdit`, `awbac`
@@ -149,7 +152,7 @@ and no story is how a working thing reaches nobody.
 Listed on purpose. A named absence can be chased; a silent one is a thing
 nobody remembers.
 
-`awpool` · `awstorage` · `awspaces` · `awswarm` · `awcache` · `awsprite` · `awbonsai` · `awrouter` · `awdata` · `awmod` · `awlog` · `awsettings`
+`awpool` · `awspaces` · `awswarm` · `awcache` · `awsprite` · `awbonsai` · `awrouter` · `awdata` · `awmod` · `awlog`
 
 ---
 
