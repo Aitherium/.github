@@ -13,7 +13,7 @@ would teach you to adopt a dependency you never wanted.
 
 ![bricks](https://img.shields.io/badge/bricks-42-4c6ef5)
 ![publishing metrics](https://img.shields.io/badge/publishing%20live%20metrics-42%2F42-4c6ef5)
-![planned](https://img.shields.io/badge/named%20%26%20not%20yet%20built-10-8a8a99)
+![planned](https://img.shields.io/badge/named%20%26%20not%20yet%20built-11-8a8a99)
 
 ➤ **[Browse the whole ecosystem](https://aitherium.github.io/)** — live, from each repo's own manifest.
 
@@ -119,7 +119,7 @@ alone, offline, and check what it claims.
 | [awembed](https://aitherium.github.io/awembed/) | Train an embedding model that knows your corpus, and prove it beats the big one. | `pip install awembed` | — | — |
 | [awtax](https://aitherium.github.io/awtax/) | Turn any tax PDF -- returns, W-2, 1099, statements, even scans -- into structured data you can check. | `git clone https://github.com/Aitherium/awtax` | — | — |
 | `awflow` | A deterministic workflow runtime — chain agent calls with journal replay and budget control. | — | — | — |
-| [awsettings](https://aitherium.github.io/awsettings/) | Your agent's permissions and config, following you to the next machine. | `pip install git+https://github.com/Aitherium/awsettings.git` | — | — |
+| [awsettings](https://aitherium.github.io/awsettings/) | Your agent's permissions and config, following you to the next machine. | `pip install awsettings` | — | — |
 
 *Files and tests are quoted from each repository's own published manifest, not
 counted here. A dash means that repo publishes no manifest yet — never zero,
@@ -146,13 +146,14 @@ and no story is how a working thing reaches nobody.
 - **Grow a companion in the browser, then take it home** (planned) — `awsprite`, `awbonsai`, `awdk`, `awsh`, `awnode`
 - **The inference commons -- pool compute, storage and caches across strangers' nodes** (partial) — `awnix`, `awnode`, `awnet`, `awcache`, `awswarm`, `awpool`, `aitherkvcache`, `awrtifact`, `awtunnel`, `awwall`
 - **Retrieval you trained yourself** (partial) — `awembed`, `awdata`, `awgraph`, `awfind`, `awm`, `awdk`
+- **Dark Matters Living World** (planned) — `awmesh`, `awdk`, `awsprite`, `awrtifact`, `awrun`
 
 ## Named, not yet built
 
 Listed on purpose. A named absence can be chased; a silent one is a thing
 nobody remembers.
 
-`awpool` · `awspaces` · `awswarm` · `awcache` · `awsprite` · `awbonsai` · `awrouter` · `awdata` · `awmod` · `awlog`
+`awpool` · `awspaces` · `awswarm` · `awcache` · `awsprite` · `awbonsai` · `awrouter` · `awdata` · `awmod` · `awlog` · `awmesh`
 
 ---
 
