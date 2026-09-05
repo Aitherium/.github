@@ -11,8 +11,8 @@ whole rule: if a brick's one-line pitch cannot be written without naming a sibli
 it is not a brick — it is a subsystem of something else, and shipping it separately
 would teach you to adopt a dependency you never wanted.
 
-![bricks](https://img.shields.io/badge/bricks-46-4c6ef5)
-![publishing metrics](https://img.shields.io/badge/publishing%20live%20metrics-43%2F46-4c6ef5)
+![bricks](https://img.shields.io/badge/bricks-44-4c6ef5)
+![publishing metrics](https://img.shields.io/badge/publishing%20live%20metrics-43%2F44-4c6ef5)
 ![planned](https://img.shields.io/badge/named%20%26%20not%20yet%20built-8-8a8a99)
 
 ➤ **[Browse the whole ecosystem](https://aitherium.github.io/)** — live, from each repo's own manifest.
@@ -116,8 +116,8 @@ alone, offline, and check what it claims.
 | [awkno](https://aitherium.github.io/awkno/) | The man page for the Aither World — every brick, stack and law, offline. | `pip install awkno` | 130 | 1 |
 | [awwall](https://aitherium.github.io/awwall/) | Say what a workload may reach, and watch everything else fail closed. | `pip install awwall` | — | — |
 | `awrouter` | OpenRouter for your own fleet: pick a model backend by cost/latency/ capability, fail over, fit the context window, stream. Standalone, OpenAI-compatible, no Aither-specifics required to be valuable. | — | — | — |
-| [awembed](https://aitherium.github.io/awembed/) | Train an embedding model that knows your corpus, and prove it beats the big one. | `pip install awembed` | — | — |
-| [awtax](https://aitherium.github.io/awtax/) | Turn any tax PDF -- returns, W-2, 1099, statements, even scans -- into structured data you can check. | `git clone https://github.com/Aitherium/awtax` | — | — |
+| `awembed` | Train an embedding model that knows your corpus, and prove it beats the big one. | — | — | — |
+| `awtax` | Turn any tax PDF -- returns, W-2, 1099, statements, even scans -- into structured data you can check. | — | — | — |
 | `awprove` | Drive a page as the real user, check what actually rendered, and get a test that goes red if it ever stops being true. | — | — | — |
 
 *Files and tests are quoted from each repository's own published manifest, not
