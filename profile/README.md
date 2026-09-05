@@ -116,6 +116,7 @@ alone, offline, and check what it claims.
 | `awwall` | Say what a workload may reach, and watch everything else fail closed. | — | — | — |
 | [awembed](https://aitherium.github.io/awembed/) | Train an embedding model that knows your corpus, and prove it beats the big one. | `pip install awembed` | — | — |
 | [awtax](https://aitherium.github.io/awtax/) | Turn any tax PDF -- returns, W-2, 1099, statements, even scans -- into structured data you can check. | `git clone https://github.com/Aitherium/awtax` | — | — |
+| `awflow` | A deterministic workflow runtime — chain agent calls with journal replay and budget control. | — | — | — |
 
 *Files and tests are quoted from each repository's own published manifest, not
 counted here. A dash means that repo publishes no manifest yet — never zero,
@@ -148,7 +149,7 @@ and no story is how a working thing reaches nobody.
 Listed on purpose. A named absence can be chased; a silent one is a thing
 nobody remembers.
 
-`awpool` · `awstorage` · `awspaces` · `awswarm` · `awcache` · `awsprite` · `awbonsai` · `awrouter` · `awdata` · `awmod` · `awlog` · `awflow`
+`awpool` · `awstorage` · `awspaces` · `awswarm` · `awcache` · `awsprite` · `awbonsai` · `awrouter` · `awdata` · `awmod` · `awlog` · `awsettings`
 
 ---
 
