@@ -11,9 +11,9 @@ whole rule: if a brick's one-line pitch cannot be written without naming a sibli
 it is not a brick — it is a subsystem of something else, and shipping it separately
 would teach you to adopt a dependency you never wanted.
 
-![bricks](https://img.shields.io/badge/bricks-42-4c6ef5)
-![publishing metrics](https://img.shields.io/badge/publishing%20live%20metrics-42%2F42-4c6ef5)
-![planned](https://img.shields.io/badge/named%20%26%20not%20yet%20built-11-8a8a99)
+![bricks](https://img.shields.io/badge/bricks-51-4c6ef5)
+![publishing metrics](https://img.shields.io/badge/publishing%20live%20metrics-46%2F51-4c6ef5)
+![planned](https://img.shields.io/badge/named%20%26%20not%20yet%20built-7-8a8a99)
 
 ➤ **[Browse the whole ecosystem](https://aitherium.github.io/)** — live, from each repo's own manifest.
 
@@ -62,7 +62,7 @@ alone, offline, and check what it claims.
 |---|---|---|---|---|
 | [awdk](https://aitherium.github.io/awdk/) | Build AI agent fleets — 3 lines, any backend, local or cloud. | `pip install awdk` | 1,269 | 290 |
 | [awskills](https://aitherium.github.io/awskills/) | Portable agent skills — self-contained procedures an agent loads on demand. | `git clone https://github.com/Aitherium/awskills` | 155 | 1 |
-| `awpack` | First-party agent packs — the ones we build, versioned and installable on their own. | — | — | — |
+| [awpack](https://aitherium.github.io/awpack/) | First-party agent packs — the ones we build, versioned and installable on their own. | `git clone https://github.com/Aitherium/awpack` | 15 | 0 |
 | [awm](https://aitherium.github.io/awm/) | A portable, scoped agent memory. | `pip install awm` | 17 | 0 |
 | `awdaemons` | The AitherOS daemons as one file — no Python, no signing, no install. | — | — | — |
 | [awnode](https://aitherium.github.io/awnode/) | A lightweight local gateway — bridges your apps to the AI backends you chose. | `pip install awnode` | 50 | 4 |
@@ -79,23 +79,25 @@ alone, offline, and check what it claims.
 | [awiam](https://aitherium.github.io/awiam/) | Who is this caller? A directory and session store that fails honestly. | `pip install git+https://github.com/Aitherium/awiam.git` | 17 | 1 |
 | [awtunnel](https://aitherium.github.io/awtunnel/) | Reach a service that has no public address. | `pip install git+https://github.com/Aitherium/awtunnel.git` | 19 | 4 |
 | [awnest](https://aitherium.github.io/awnest/) | Prove there is a human before you let them into the nest. | `pip install awnest` | 24 | 2 |
-| `awrena` | Put two agents head to head and get a verdict you can check. | — | — | — |
+| [awrena](https://aitherium.github.io/awrena/) | Put two agents head to head and get a verdict you can check. | `pip install awrena` | — | — |
 | [awnboard](https://aitherium.github.io/awnboard/) | A front gate you can put in front of anything, and hand someone the key to. | `pip install awnboard` | 19 | 2 |
 | [awnix](https://aitherium.github.io/awnix/) | A Linux you can hand to an agent — immutable base, capabilities included. | `see the repo — image builder` | 10 | 0 |
 | [awrecover](https://aitherium.github.io/awrecover/) | Labelled snapshots with an all-or-nothing restore. | `pip install git+https://github.com/Aitherium/awrecover.git` | 19 | 3 |
-| `awstorage` | Every drive on every node, indexed, classified and diffed -- so you can see what you own before you delete it. | — | — | — |
+| [awstorage](https://aitherium.github.io/awstorage/) | Every drive on every node, indexed, classified and diffed -- so you can see what you own before you delete it. | `pip install awstorage` | 10 | 14 |
 | [awrelay](https://aitherium.github.io/awrelay/) | Portable agent messaging — findings, alerts, coordination. | `pip install awrelay` | 25 | 3 |
-| `awask` | Your agent asks you a question — and acts on your answer. | — | — | — |
+| [awask](https://aitherium.github.io/awask/) | Your agent asks you a question — and acts on your answer. | `pip install awask` | — | — |
 | [awmail](https://aitherium.github.io/awmail/) | Give an agent an email address — send, and actually receive. | `pip install awmail` | 20 | 2 |
 | [awnet](https://aitherium.github.io/awnet/) | The agentic web — agents host a mesh, and agents join one. | `pip install git+https://github.com/Aitherium/awnet.git` | 18 | 2 |
+| `awswarm` | Run one model too big for any single GPU across a pool of small ones. | — | — | — |
 | [awfind](https://aitherium.github.io/awfind/) | A portable search client — query, results, ranking. | `pip install awfind` | 17 | 2 |
 | [awbrowse](https://aitherium.github.io/awbrowse/) | A portable browser client — navigate, console, network, DOM, screenshot. | `pip install awbrowse` | 17 | 2 |
 | `awprove` | Drive a page as the real user, check what rendered, and get a test that goes red if it stops being true. | — | — | — |
-| `awvoice` | Hear and speak — transcribe audio, synthesize a voice. | — | — | — |
-| `awvision` | See an image — describe it, ask it a question, compare two. | — | — | — |
-| `awscreen` | See this machine — what is on screen, and where to click it. | — | — | — |
+| [awvoice](https://aitherium.github.io/awvoice/) | Hear and speak — transcribe audio, synthesize a voice. | `pip install awvoice` | — | — |
+| [awvision](https://aitherium.github.io/awvision/) | See an image — describe it, ask it a question, compare two. | `pip install awvision` | — | — |
+| [awscreen](https://aitherium.github.io/awscreen/) | See this machine — what is on screen, and where to click it. | `pip install awscreen` | — | — |
 | `awkit` | Render an agent panel from a tool result — one component, any React app. | — | — | — |
 | `awbeads` | A spatial canvas for a page — arrange things, connect them, and keep the arrangement. | — | — | — |
+| `awbonsai` | Run a real model in the visitor's own browser — no server round trip, no upload. | — | — | — |
 | [awknowledge](https://aitherium.github.io/awknowledge/) | How to run a coding agent so the result survives — the laws, with evidence. | `read it — https://aitherium.github.io/awknowledge/` | 85 | 0 |
 | `awbrain` | Your history as a wiki of linked markdown — claims pinned to the evidence. | — | — | — |
 | `gobbonet-agentic` | GobboNet campaigns with a real agent brain — scoped memory, graph recall. | — | — | — |
@@ -113,13 +115,15 @@ alone, offline, and check what it claims.
 | [awpredict](https://aitherium.github.io/awpredict/) | Predict what your environment does next, and how surprised you were. | `pip install git+https://github.com/Aitherium/awpredict.git` | 38 | 8 |
 | `awevolve` | Point an agent at a file and a command that scores it, and let it improve. | — | — | — |
 | [awsh](https://aitherium.github.io/awsh/) | Your terminal answers you -- type a question where a command would go. | `npm i -g @aitherium/awsh` | 1,144 | 47 |
-| `awrise` | Wake an agent on a schedule, let it do one thing, and put it back to sleep. | — | — | — |
-| [awkno](https://aitherium.github.io/awkno/) | The man page for the Aither World — every brick, stack and law, offline. | `pip install awkno` | 130 | 1 |
-| `awwall` | Say what a workload may reach, and watch everything else fail closed. | — | — | — |
+| [awrise](https://aitherium.github.io/awrise/) | Wake an agent on a schedule, let it do one thing, and put it back to sleep. | `pip install awrise` | — | — |
+| [awkno](https://aitherium.github.io/awkno/) | The man page for the Aither World — every brick, stack and law, offline. | `pip install awkno` | 129 | 1 |
+| [awwall](https://aitherium.github.io/awwall/) | Say what a workload may reach, and watch everything else fail closed. | `pip install awwall` | — | — |
+| `awrouter` | OpenRouter for your own fleet: pick a model backend by cost/latency/ capability, fail over, fit the context window, stream. Standalone, OpenAI-compatible, no Aither-specifics required to be valuable. | — | — | — |
 | [awembed](https://aitherium.github.io/awembed/) | Train an embedding model that knows your corpus, and prove it beats the big one. | `pip install awembed` | — | — |
 | [awtax](https://aitherium.github.io/awtax/) | Turn any tax PDF -- returns, W-2, 1099, statements, even scans -- into structured data you can check. | `git clone https://github.com/Aitherium/awtax` | — | — |
 | `awflow` | A deterministic workflow runtime — chain agent calls with journal replay and budget control. | — | — | — |
 | [awsettings](https://aitherium.github.io/awsettings/) | Your agent's permissions and config, following you to the next machine. | `pip install awsettings` | — | — |
+| `awavatar` | One character spec in, a rigged, animated, multi-style asset pack out. | — | — | — |
 
 *Files and tests are quoted from each repository's own published manifest, not
 counted here. A dash means that repo publishes no manifest yet — never zero,
@@ -146,14 +150,13 @@ and no story is how a working thing reaches nobody.
 - **Grow a companion in the browser, then take it home** (planned) — `awsprite`, `awbonsai`, `awdk`, `awsh`, `awnode`
 - **The inference commons -- pool compute, storage and caches across strangers' nodes** (partial) — `awnix`, `awnode`, `awnet`, `awcache`, `awswarm`, `awpool`, `aitherkvcache`, `awrtifact`, `awtunnel`, `awwall`
 - **Retrieval you trained yourself** (partial) — `awembed`, `awdata`, `awgraph`, `awfind`, `awm`, `awdk`
-- **Dark Matters Living World** (planned) — `awmesh`, `awdk`, `awsprite`, `awrtifact`, `awrun`
 
 ## Named, not yet built
 
 Listed on purpose. A named absence can be chased; a silent one is a thing
 nobody remembers.
 
-`awpool` · `awspaces` · `awswarm` · `awcache` · `awsprite` · `awbonsai` · `awrouter` · `awdata` · `awmod` · `awlog` · `awmesh`
+`awpool` · `awspaces` · `awcache` · `awsprite` · `awdata` · `awmod` · `awlog`
 
 ---
 
