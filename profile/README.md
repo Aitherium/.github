@@ -1,68 +1,25 @@
 # The Aither World
 
-**An operating system for agents** — a Linux you can hand to one, the runtimes it
+**An operating system for agents.** A Linux you can hand to one, the runtimes it
 works in, and the tools it works with.
 
-`aw` is **Aither World**. Every name reads as a phrase: `awknowledge` is *Aither
-World Knowledge*, `awnix` is *Aither World Nix*, `awnet` is *Aither World Net*.
+Every brick below **installs on its own, runs offline, and needs no account.**
 
-Every brick **installs on its own, runs offline, and needs no account.** That is the
-whole rule: if a brick's one-line pitch cannot be written without naming a sibling,
-it is not a brick — it is a subsystem of something else, and shipping it separately
-would teach you to adopt a dependency you never wanted.
-
-![bricks](https://img.shields.io/badge/bricks-51-4c6ef5)
-![publishing metrics](https://img.shields.io/badge/publishing%20live%20metrics-46%2F51-4c6ef5)
+![bricks](https://img.shields.io/badge/bricks-52-4c6ef5)
+![publishing metrics](https://img.shields.io/badge/publishing%20live%20metrics-47%2F52-4c6ef5)
 ![planned](https://img.shields.io/badge/named%20%26%20not%20yet%20built-7-8a8a99)
 
 ➤ **[Browse the whole ecosystem](https://aitherium.github.io/)** — live, from each repo's own manifest.
 
 ---
 
-## Start here
+## What is here
 
-Four bricks carry the story. Take one; the rest still work without it.
-
-| brick | what it is | install | one line |
-|---|---|---|---|
-| [awnix](https://aitherium.github.io/awnix/) | **the machine** — immutable base | `see the repo — image builder` | A Linux you can hand to an agent — immutable base, capabilities included. |
-| [awdk](https://aitherium.github.io/awdk/) | **the runtime** — agent fleets | `pip install awdk` | Build AI agent fleets — 3 lines, any backend, local or cloud. |
-| [awknowledge](https://aitherium.github.io/awknowledge/) | **the doctrine** — how to run one | `read it — https://aitherium.github.io/awknowledge/` | How to run a coding agent so the result survives — the laws, with evidence. |
-| [awsh](https://aitherium.github.io/awsh/) | **the cockpit** — your terminal | `npm i -g @aitherium/awsh` | Your terminal answers you -- type a question where a command would go. |
-
-The layering is deliberate, and it is the one design decision worth reading twice:
-
-```
-  awnix      immutable OS + the aw* capabilities     <- guarantees live HERE
-    + awdk   three lines in a Dockerfile             <- the bare agent VM
-      + you  skills, packs, credentials
-```
-
-Capabilities go in the **base**, not the agent — leases, call graph, messaging,
-scoped memory, snapshots, verified artifacts. Put them in the agent instead and
-every guarantee walks out the door with it when you swap the agent.
-
----
-
-## Where this came from
-
-**AitherOS** is the platform these were cut out of: a live agentic fleet — services,
-agents, a memory graph, an inference plane — run in production every day. It is not
-a demo, and it is not what you install. The bricks are: each one is the piece that
-survived being made standalone, published under its own licence, with its own tests.
-
-A brick is not shipped when it builds. It is shipped when a stranger can adopt it
-alone, offline, and check what it claims.
-
----
-
-## Every brick
-
-| brick | what it does | install | files | tests |
+| brick | what it replaces trusting | install | files | tests |
 |---|---|---|---|---|
 | [awdk](https://aitherium.github.io/awdk/) | Build AI agent fleets — 3 lines, any backend, local or cloud. | `pip install awdk` | 1,269 | 290 |
 | [awskills](https://aitherium.github.io/awskills/) | Portable agent skills — self-contained procedures an agent loads on demand. | `git clone https://github.com/Aitherium/awskills` | 155 | 1 |
-| [awpack](https://aitherium.github.io/awpack/) | First-party agent packs — the ones we build, versioned and installable on their own. | `git clone https://github.com/Aitherium/awpack` | 15 | 0 |
+| [awpack](https://aitherium.github.io/awpack/) | First-party agent packs — the ones we build, versioned and installable on their own. | `git clone https://github.com/Aitherium/awpack` | 14 | 0 |
 | [awm](https://aitherium.github.io/awm/) | A portable, scoped agent memory. | `pip install awm` | 17 | 0 |
 | `awdaemons` | The AitherOS daemons as one file — no Python, no signing, no install. | — | — | — |
 | [awnode](https://aitherium.github.io/awnode/) | A lightweight local gateway — bridges your apps to the AI backends you chose. | `pip install awnode` | 50 | 4 |
@@ -124,17 +81,13 @@ alone, offline, and check what it claims.
 | `awflow` | A deterministic workflow runtime — chain agent calls with journal replay and budget control. | — | — | — |
 | [awsettings](https://aitherium.github.io/awsettings/) | Your agent's permissions and config, following you to the next machine. | `pip install awsettings` | — | — |
 | `awavatar` | One character spec in, a rigged, animated, multi-style asset pack out. | — | — | — |
+| [gawbbonet](https://aitherium.github.io/gawbbonet/) | GobboNet campaigns with a real agent brain — scoped memory, graph recall. | `git clone https://github.com/Aitherium/gawbbonet` | — | — |
 
 *Files and tests are quoted from each repository's own published manifest, not
 counted here. A dash means that repo publishes no manifest yet — never zero,
 because a fabricated zero reads as a measurement.*
 
 ## Stacks — what to use together
-
-A stack is an assembly, not a bundle. `ready` means the pieces exist **and** the
-assembly is documented; `partial` means the pieces ship and wiring them is still
-yours to do. Saying which is which is the point — a stack that ships every part
-and no story is how a working thing reaches nobody.
 
 - **The bare agent VM** (partial) — `awnix`, `awdk`, `awskills`, `awkno`, `awsettings`
 - **Senses** (ready) — `awfind`, `awbrowse`, `awvoice`, `awvision`, `awscreen`, `awdk`
@@ -160,16 +113,5 @@ nobody remembers.
 
 ---
 
-## Two houses
-
-| | |
-|---|---|
-| **[aitherium.com](https://aitherium.com)** | The platform. AitherOS, the Living Desktop, the hosted planes. |
-| **[aitherium.org](https://aitherium.org)** | The Aitherium Foundation. Mission, programs, transparency, how to get involved. |
-| **[aitherium.github.io](https://aitherium.github.io/)** | The ecosystem hub — every brick, live from its own manifest. |
-
----
-
-<sub>This page is generated from `ecosystem.yaml` and the live manifests, and is
-published to BOTH the public and the member-only org profile. Editing either by
-hand will be overwritten — change the registry instead.</sub>
+<sub>This page is generated from `ecosystem.yaml` and the live manifests. Editing
+it by hand will be overwritten — change the registry instead.</sub>
