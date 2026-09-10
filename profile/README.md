@@ -7,7 +7,7 @@ Every brick below **installs on its own, runs offline, and needs no account.**
 
 ![bricks](https://img.shields.io/badge/bricks-46-4c6ef5)
 ![publishing metrics](https://img.shields.io/badge/publishing%20live%20metrics-46%2F46-4c6ef5)
-![planned](https://img.shields.io/badge/named%20%26%20not%20yet%20built-11-8a8a99)
+![planned](https://img.shields.io/badge/named%20%26%20not%20yet%20built-13-8a8a99)
 
 ➤ **[Browse the whole ecosystem](https://aitherium.github.io/)** — live, from each repo's own manifest.
 
@@ -101,13 +101,14 @@ because a fabricated zero reads as a measurement.*
 - **The inference commons -- pool compute, storage and caches across strangers' nodes** (partial) — `awnix`, `awnode`, `awnet`, `awcache`, `awswarm`, `awpool`, `aitherkvcache`, `awrtifact`, `awtunnel`, `awwall`
 - **Retrieval you trained yourself** (partial) — `awembed`, `awdata`, `awgraph`, `awfind`, `awm`, `awdk`
 - **Dark Matters Living World** (planned) — `awavatar`, `awdk`, `awsprite`, `awrtifact`, `awrun`
+- **The Creator Stack — Saga + Media Forge + Iris on your own machine** (partial) — `awsaga`, `mediaforge`, `awiris`, `awsprite`, `awdesk`, `awbonsai`, `awdk`, `awnode`, `AitherConnect`, `awrtifact`
 
 ## Named, not yet built
 
 Listed on purpose. A named absence can be chased; a silent one is a thing
 nobody remembers.
 
-`awpool` · `awspaces` · `awswarm` · `awcache` · `awsprite` · `awbonsai` · `awrouter` · `awdata` · `awmod` · `awlog` · `awavatar`
+`awpool` · `awspaces` · `awswarm` · `awcache` · `awsprite` · `awbonsai` · `awrouter` · `awdata` · `awmod` · `awlog` · `awavatar` · `awsaga` · `awiris`
 
 ---
 
