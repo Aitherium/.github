@@ -18,7 +18,7 @@ Every brick below **installs on its own, runs offline, and needs no account.**
 | brick | what it replaces trusting | install | files | tests |
 |---|---|---|---|---|
 | [awdk](https://aitherium.github.io/awdk/) | Build AI agent fleets — 3 lines, any backend, local or cloud. | `pip install awdk` | 1,293 | 293 |
-| [awskills](https://aitherium.github.io/awskills/) | Portable agent skills — self-contained procedures an agent loads on demand. | `git clone https://github.com/Aitherium/awskills` | 154 | 1 |
+| [awskills](https://aitherium.github.io/awskills/) | Portable agent skills — self-contained procedures an agent loads on demand. | `git clone https://github.com/Aitherium/awskills` | 162 | 1 |
 | `awpack` | First-party agent packs — the ones we build, versioned and installable on their own. | — | — | — |
 | [awm](https://aitherium.github.io/awm/) | A portable, scoped agent memory. | `pip install awm` | 17 | 0 |
 | `aitheros` | One file you run, and the machine has a local AI stack. | — | — | — |
@@ -76,7 +76,7 @@ Every brick below **installs on its own, runs offline, and needs no account.**
 | `awrise` | Wake an agent on a schedule, let it do one thing, and put it back to sleep. | — | — | — |
 | [awkno](https://aitherium.github.io/awkno/) | The man page for the Aither World — every brick, stack and law, offline. | `pip install awkno` | 144 | 1 |
 | `awwall` | Say what a workload may reach, and watch everything else fail closed. | — | — | — |
-| [awembed](https://aitherium.github.io/awembed/) | Train an embedding model that knows your corpus, and prove it beats the big one. | `pip install awembed` | 19 | 1 |
+| [awembed](https://aitherium.github.io/awembed/) | Train an embedding model that knows your corpus, and prove it beats the big one. | `pip install awembed` | 22 | 1 |
 | [awtax](https://aitherium.github.io/awtax/) | Turn any tax PDF -- returns, W-2, 1099, statements, even scans -- into structured data you can check. | `git clone https://github.com/Aitherium/awtax` | 14 | 1 |
 | `awflow` | A deterministic workflow runtime — chain agent calls with journal replay and budget control. | — | — | — |
 | [awsettings](https://aitherium.github.io/awsettings/) | Your agent's permissions and config, following you to the next machine. | `pip install awsettings` | 19 | 1 |
