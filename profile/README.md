@@ -5,9 +5,9 @@ works in, and the tools it works with.
 
 Every brick below **installs on its own, runs offline, and needs no account.**
 
-![bricks](https://img.shields.io/badge/bricks-45-4c6ef5)
-![publishing metrics](https://img.shields.io/badge/publishing%20live%20metrics-44%2F45-4c6ef5)
-![planned](https://img.shields.io/badge/named%20%26%20not%20yet%20built-15-8a8a99)
+![bricks](https://img.shields.io/badge/bricks-47-4c6ef5)
+![publishing metrics](https://img.shields.io/badge/publishing%20live%20metrics-44%2F47-4c6ef5)
+![planned](https://img.shields.io/badge/named%20%26%20not%20yet%20built-14-8a8a99)
 
 ➤ **[Browse the whole ecosystem](https://aitherium.github.io/)** — live, from each repo's own manifest.
 
@@ -78,8 +78,9 @@ Every brick below **installs on its own, runs offline, and needs no account.**
 | `awwall` | Say what a workload may reach, and watch everything else fail closed. | — | — | — |
 | [awembed](https://aitherium.github.io/awembed/) | Train an embedding model that knows your corpus, and prove it beats the big one. | `pip install awembed` | 24 | 2 |
 | [awtax](https://aitherium.github.io/awtax/) | Turn any tax PDF -- returns, W-2, 1099, statements, even scans -- into structured data you can check. | `git clone https://github.com/Aitherium/awtax` | 17 | 1 |
-| `awflow` | A deterministic workflow runtime — chain agent calls with journal replay and budget control. | — | — | — |
+| [awflow](https://aitherium.github.io/awflow/) | A deterministic workflow runtime — chain agent calls with journal replay and budget control. | `pip install awflow` | — | — |
 | [awsettings](https://aitherium.github.io/awsettings/) | Your agent's permissions and config, following you to the next machine. | `pip install awsettings` | 21 | 2 |
+| [awavatar](https://aitherium.github.io/awavatar/) | One character spec in, a rigged, animated, multi-style avatar pack out. | `pip install git+https://github.com/Aitherium/awavatar` | — | — |
 
 *Files and tests are quoted from each repository's own published manifest, not
 counted here. A dash means that repo publishes no manifest yet — never zero,
@@ -110,7 +111,7 @@ because a fabricated zero reads as a measurement.*
 Listed on purpose. A named absence can be chased; a silent one is a thing
 nobody remembers.
 
-`awpool` · `awspaces` · `awswarm` · `awcache` · `awforge` · `awsprite` · `awbonsai` · `awrouter` · `awdata` · `awmod` · `awlog` · `awresume` · `awavatar` · `awsaga` · `awiris`
+`awpool` · `awspaces` · `awswarm` · `awcache` · `awforge` · `awsprite` · `awbonsai` · `awrouter` · `awdata` · `awmod` · `awlog` · `awresume` · `awsaga` · `awiris`
 
 ---
 
