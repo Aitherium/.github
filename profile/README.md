@@ -5,8 +5,8 @@ works in, and the tools it works with.
 
 Every brick below **installs on its own, runs offline, and needs no account.**
 
-![bricks](https://img.shields.io/badge/bricks-47-4c6ef5)
-![publishing metrics](https://img.shields.io/badge/publishing%20live%20metrics-47%2F47-4c6ef5)
+![bricks](https://img.shields.io/badge/bricks-53-4c6ef5)
+![publishing metrics](https://img.shields.io/badge/publishing%20live%20metrics-53%2F53-4c6ef5)
 ![planned](https://img.shields.io/badge/named%20%26%20not%20yet%20built-14-8a8a99)
 
 ➤ **[Browse the whole ecosystem](https://aitherium.github.io/)** — live, from each repo's own manifest.
@@ -38,7 +38,7 @@ Every brick below **installs on its own, runs offline, and needs no account.**
 | [awiam](https://aitherium.github.io/awiam/) | Who is this caller? A directory and session store that fails honestly. | `pip install git+https://github.com/Aitherium/awiam.git` | 17 | 1 |
 | [awtunnel](https://aitherium.github.io/awtunnel/) | Reach a service that has no public address. | `pip install git+https://github.com/Aitherium/awtunnel.git` | 19 | 4 |
 | [awnest](https://aitherium.github.io/awnest/) | Prove there is a human before you let them into the nest. | `pip install awnest` | 26 | 3 |
-| `awrena` | Put two agents head to head and get a verdict you can check. | — | — | — |
+| [awrena](https://aitherium.github.io/awrena/) | Put two agents head to head and get a verdict you can check. | `pip install awrena` | 10 | 1 |
 | [awnboard](https://aitherium.github.io/awnboard/) | A front gate you can put in front of anything, and hand someone the key to. | `pip install awnboard` | 19 | 2 |
 | [awnix](https://aitherium.github.io/awnix/) | A Linux you can hand to an agent — immutable base, capabilities included. | `see the repo — image builder` | 11 | 0 |
 | [awrecover](https://aitherium.github.io/awrecover/) | Labelled snapshots with an all-or-nothing restore. | `pip install git+https://github.com/Aitherium/awrecover.git` | 19 | 3 |
@@ -51,9 +51,9 @@ Every brick below **installs on its own, runs offline, and needs no account.**
 | [awfind](https://aitherium.github.io/awfind/) | A portable search client — query, results, ranking. | `pip install awfind` | 17 | 2 |
 | [awbrowse](https://aitherium.github.io/awbrowse/) | A portable browser client — navigate, console, network, DOM, screenshot. | `pip install awbrowse` | 19 | 3 |
 | `awprove` | Drive a page as the real user, check what rendered, and get a test that goes red if it stops being true. | — | — | — |
-| `awvoice` | Hear and speak — transcribe audio, synthesize a voice. | — | — | — |
-| `awvision` | See an image — describe it, ask it a question, compare two. | — | — | — |
-| `awscreen` | See this machine — what is on screen, and where to click it. | — | — | — |
+| [awvoice](https://aitherium.github.io/awvoice/) | Hear and speak — transcribe audio, synthesize a voice. | `pip install awvoice` | 12 | 1 |
+| [awvision](https://aitherium.github.io/awvision/) | See an image — describe it, ask it a question, compare two. | `pip install awvision` | 12 | 1 |
+| [awscreen](https://aitherium.github.io/awscreen/) | See this machine — what is on screen, and where to click it. | `pip install awscreen` | 17 | 4 |
 | `awkit` | Render an agent panel from a tool result — one component, any React app. | — | — | — |
 | `awbeads` | A spatial canvas for a page — arrange things, connect them, and keep the arrangement. | — | — | — |
 | [awknowledge](https://aitherium.github.io/awknowledge/) | How to run a coding agent so the result survives — the laws, with evidence. | `read it — https://aitherium.github.io/awknowledge/` | 100 | 0 |
@@ -73,14 +73,14 @@ Every brick below **installs on its own, runs offline, and needs no account.**
 | [awpredict](https://aitherium.github.io/awpredict/) | Predict what your environment does next, and how surprised you were. | `pip install git+https://github.com/Aitherium/awpredict.git` | 40 | 9 |
 | `awevolve` | Point an agent at a file and a command that scores it, and let it improve. | — | — | — |
 | [awsh](https://aitherium.github.io/awsh/) | Your terminal answers you -- type a question where a command would go. | `npm i -g @aitherium/awsh` | 1,144 | 47 |
-| `awrise` | Wake an agent on a schedule, let it do one thing, and put it back to sleep. | — | — | — |
+| [awrise](https://aitherium.github.io/awrise/) | Wake an agent on a schedule, let it do one thing, and put it back to sleep. | `pip install awrise` | 9 | 2 |
 | [awkno](https://aitherium.github.io/awkno/) | The man page for the Aither World — every brick, stack and law, offline. | `pip install awkno` | 151 | 1 |
-| `awwall` | Say what a workload may reach, and watch everything else fail closed. | — | — | — |
+| [awwall](https://aitherium.github.io/awwall/) | Say what a workload may reach, and watch everything else fail closed. | `pip install awwall` | 9 | 2 |
 | [awembed](https://aitherium.github.io/awembed/) | Train an embedding model that knows your corpus, and prove it beats the big one. | `pip install awembed` | 24 | 2 |
 | [awtax](https://aitherium.github.io/awtax/) | Turn any tax PDF -- returns, W-2, 1099, statements, even scans -- into structured data you can check. | `git clone https://github.com/Aitherium/awtax` | 17 | 1 |
-| [awflow](https://aitherium.github.io/awflow/) | A deterministic workflow runtime — chain agent calls with journal replay and budget control. | `pip install awflow` | 16 | 2 |
+| [awflow](https://aitherium.github.io/awflow/) | A deterministic workflow runtime — chain agent calls with journal replay and budget control. | `pip install awflow` | 20 | 2 |
 | [awsettings](https://aitherium.github.io/awsettings/) | Your agent's permissions and config, following you to the next machine. | `pip install awsettings` | 21 | 2 |
-| [awavatar](https://aitherium.github.io/awavatar/) | One character spec in, a rigged, animated, multi-style avatar pack out. | `pip install git+https://github.com/Aitherium/awavatar` | 12 | 1 |
+| [awavatar](https://aitherium.github.io/awavatar/) | One character spec in, a rigged, animated, multi-style avatar pack out. | `pip install git+https://github.com/Aitherium/awavatar` | 16 | 1 |
 
 *Files and tests are quoted from each repository's own published manifest, not
 counted here. A dash means that repo publishes no manifest yet — never zero,
