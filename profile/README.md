@@ -60,7 +60,7 @@ Every brick below **installs on its own, runs offline, and needs no account.**
 | `awbonsai` | Run a real model in the visitor's own browser — no server round trip, no upload. | — | — | — |
 | [awknowledge](https://aitherium.github.io/awknowledge/) | How to run a coding agent so the result survives — the laws, with evidence. | `read it — https://aitherium.github.io/awknowledge/` | 100 | 0 |
 | `awbrain` | Your history as a wiki of linked markdown — claims pinned to the evidence. | — | — | — |
-| [gawbbonet](https://aitherium.github.io/gawbbonet/) | GobboNet campaigns with a real agent brain — scoped memory, graph recall. | `pip install git+https://github.com/Aitherium/gawbbonet` | 3 | 0 |
+| [gawbbonet](https://aitherium.github.io/gawbbonet/) | GobboNet campaigns with a real agent brain — scoped memory, graph recall. | `pip install gawbbonet` | 3 | 0 |
 | [aitherkvcache](https://aitherium.github.io/aitherkvcache/) | Near-optimal KV cache quantization for LLM inference — sub-byte compression. | `pip install aither-kvcache` | 67 | 8 |
 | [awrtifact](https://aitherium.github.io/awrtifact/) | Deliberately chunk artifacts into GitHub release assets — the productized aitherkvcache mirror lane. | `pip install awrtifact` | 54 | 13 |
 | [AitherZero](https://aitherium.github.io/AitherZero/) | PowerShell 7+ automation framework — numbered, self-describing scripts. | `git clone https://github.com/Aitherium/AitherZero` | 1,615 | 35 |
