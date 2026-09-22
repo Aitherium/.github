@@ -23,7 +23,7 @@ Every brick below **installs on its own, runs offline, and needs no account.**
 | [awm](https://aitherium.github.io/awm/) | A portable, scoped agent memory. | `pip install awm` | 21 | 0 |
 | `aitheros` | One file you run, and the machine has a local AI stack. | — | — | — |
 | `awdaemons` | The AitherOS daemons as one file — no Python, no signing, no install. | — | — | — |
-| [awdesk](https://aitherium.github.io/awdesk/) | Aither World Desk -- the desktop body of AitherOS Online: tray, avatars, decision cards, the Living Desktop as an overlay. | `see the repo -- Electron app (npm install && npx electron .)` | 256 | 0 |
+| [awdesk](https://aitherium.github.io/awdesk/) | Aither World Desk -- the desktop body of AitherOS Online: tray, avatars, decision cards, the Living Desktop as an overlay. | `see the repo -- Electron app (npm install && npx electron .)` | 258 | 0 |
 | [awnode](https://aitherium.github.io/awnode/) | A lightweight local gateway — bridges your apps to the AI backends you chose. | `pip install awnode` | 62 | 5 |
 | [awrun](https://aitherium.github.io/awrun/) | A priority-aware queue and dispatcher for agentic runs and ad-hoc CI builds. It also judges whether the runner pool is big enough for the queue it is draining, and can ask a host to grow it -- reserving capacity is zero-sum, so a saturated pool needs more of it, not a different share of it. | `pip install awrun` | 36 | 6 |
 | [awgraph](https://aitherium.github.io/awgraph/) | A semantic code graph for agents — AST + tree-sitter, call graphs. | `pip install awgraph` | 46 | 15 |
@@ -58,7 +58,7 @@ Every brick below **installs on its own, runs offline, and needs no account.**
 | `awkit` | Render an agent panel from a tool result — one component, any React app. | — | — | — |
 | `awbeads` | A spatial canvas for a page — arrange things, connect them, and keep the arrangement. | — | — | — |
 | `awbonsai` | Run a real model in the visitor's own browser — no server round trip, no upload. | — | — | — |
-| [awknowledge](https://aitherium.github.io/awknowledge/) | How to run a coding agent so the result survives — the laws, with evidence. | `read it — https://aitherium.github.io/awknowledge/` | 112 | 0 |
+| [awknowledge](https://aitherium.github.io/awknowledge/) | How to run a coding agent so the result survives — the laws, with evidence. | `read it — https://aitherium.github.io/awknowledge/` | 113 | 0 |
 | `awbrain` | Your history as a wiki of linked markdown — claims pinned to the evidence. | — | — | — |
 | [gawbbonet](https://aitherium.github.io/gawbbonet/) | GobboNet campaigns with a real agent brain — scoped memory, graph recall. | `pip install gawbbonet` | 14 | 1 |
 | [aitherkvcache](https://aitherium.github.io/aitherkvcache/) | Near-optimal KV cache quantization for LLM inference — sub-byte compression. | `pip install aither-kvcache` | 67 | 8 |
@@ -75,7 +75,7 @@ Every brick below **installs on its own, runs offline, and needs no account.**
 | [awgym](https://aitherium.github.io/awgym/) | An ARC training gym — a game a world model can watch, and six roles that play through it. | `pip install awgym` | 64 | 11 |
 | [awpredict](https://aitherium.github.io/awpredict/) | Predict what your environment does next, and how surprised you were. | `pip install git+https://github.com/Aitherium/awpredict.git` | 43 | 9 |
 | `awevolve` | Point an agent at a file and a command that scores it, and let it improve. | — | — | — |
-| [awsh](https://aitherium.github.io/awsh/) | Your terminal answers you -- type a question where a command would go. | `npm i -g @aitherium/awsh` | — | — |
+| [awsh](https://aitherium.github.io/awsh/) | Your terminal answers you -- type a question where a command would go. | `npm i -g @aitherium/awsh` | 1,168 | 58 |
 | `awmine` | Mine what your agents did -- outcomes, lessons and procedures out of the transcripts they left behind. | — | — | — |
 | [awrise](https://aitherium.github.io/awrise/) | Wake an agent on a schedule, let it do one thing, and put it back to sleep. | `pip install awrise` | 58 | 31 |
 | [awkno](https://aitherium.github.io/awkno/) | The man page for the Aither World — every brick, stack and law, offline. | `pip install awkno` | 169 | 1 |
