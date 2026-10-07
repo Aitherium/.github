@@ -19,7 +19,7 @@ Every brick below **installs on its own, runs offline, and needs no account.**
 |---|---|---|---|---|
 | [awdk](https://aitherium.github.io/awdk/) | Build AI agent fleets — 3 lines, any backend, local or cloud. | `pip install awdk` | 2,122 | 592 |
 | [awskills](https://aitherium.github.io/awskills/) | Portable agent skills — self-contained procedures an agent loads on demand. | `git clone https://github.com/Aitherium/awskills` | 188 | 1 |
-| [awpack](https://aitherium.github.io/awpack/) | First-party agent packs — the ones we build, versioned and installable on their own. | `git clone https://github.com/Aitherium/awpack` | 28 | 0 |
+| [awpack](https://aitherium.github.io/awpack/) | First-party agent packs — the ones we build, versioned and installable on their own. | `git clone https://github.com/Aitherium/awpack` | 29 | 0 |
 | [awm](https://aitherium.github.io/awm/) | A portable, scoped agent memory. | `pip install awm` | 61 | 23 |
 | `aitheros` | One file you run, and the machine has a local AI stack. | — | — | — |
 | `awdaemons` | The AitherOS daemons as one file — no Python, no signing, no install. | — | — | — |
@@ -67,7 +67,7 @@ Every brick below **installs on its own, runs offline, and needs no account.**
 | [aitherkvcache](https://aitherium.github.io/aitherkvcache/) | Near-optimal KV cache quantization for LLM inference — sub-byte compression. | `pip install aither-kvcache` | 70 | 8 |
 | [awrtifact](https://aitherium.github.io/awrtifact/) | Deliberately chunk artifacts into GitHub release assets — the productized aitherkvcache mirror lane. | `pip install awrtifact` | 62 | 17 |
 | [AitherZero](https://aitherium.github.io/AitherZero/) | PowerShell 7+ automation framework — numbered, self-describing scripts. | `git clone https://github.com/Aitherium/AitherZero` | 1,681 | 44 |
-| [AitherConnect](https://aitherium.github.io/AitherConnect/) | Browser extension — federated AI search, page context, and the Living OS overlay. | `load unpacked — see the repo` | 167 | 33 |
+| [AitherConnect](https://aitherium.github.io/AitherConnect/) | Browser extension — federated AI search, page context, and the Living OS overlay. | `https://chromewebstore.google.com/detail/awconnect/peeojgjhjficedkncdejbfnacooodbak` | 167 | 33 |
 | [awreason](https://aitherium.github.io/awreason/) | A portable reasoning client — sessions, phases, thoughts, and the chain that produced the answer. | `pip install awreason` | 22 | 1 |
 | [awrecurse](https://aitherium.github.io/awrecurse/) | Answer a question over a context far larger than the window — recursively, with the trace kept. | `pip install awrecurse` | 27 | 4 |
 | [awprism](https://aitherium.github.io/awprism/) | Turn a failure into ranked hypotheses — and say what would confirm each one. | `pip install awprism` | 32 | 5 |
