@@ -35,6 +35,7 @@ Every brick below **installs on its own, runs offline, and needs no account.**
 | [awtoll](https://aitherium.github.io/awtoll/) | What every tool call costs you in context, measured from your own transcripts. | `pip install awtoll` | 29 | 1 |
 | [awseal](https://aitherium.github.io/awseal/) | Sign an artifact so a stranger can verify it. | `pip install awseal` | 26 | 1 |
 | [awshare](https://aitherium.github.io/awshare/) | Publish an artifact and fetch it back verified. | `pip install awshare` | 28 | 3 |
+| `awsuite` | Your Google Workspace as agent tools, and no write happens without a yes. | — | — | — |
 | [awdit](https://aitherium.github.io/awdit/) | An append-only audit trail whose gaps are DETECTABLE. | `pip install awdit` | 24 | 1 |
 | [awbac](https://aitherium.github.io/awbac/) | Role-based access control that fails closed and explains itself. | `pip install awbac` | 23 | 1 |
 | [awiam](https://aitherium.github.io/awiam/) | Who is this caller? A directory and session store that fails honestly. | `pip install awiam` | 24 | 1 |
@@ -122,6 +123,7 @@ because a fabricated zero reads as a measurement.*
 - **Mine what you ran -- transcripts in, packs and outcomes out** (partial) — `awmine`, `awtoll`, `awm`, `awdata`, `awdecide`, `awskills`, `awdk`, `awrise`
 - **The daily driver** (partial) — `awsh`, `awdk`, `awnode`, `awdesk`, `awskills`
 - **The Aither way to run Claude Code** (partial) — `awdk`, `awsh`, `awsettings`, `awskills`, `awknowledge`, `awkno`, `awgit`, `awrelay`, `awm`, `awgraph`, `awfind`, `awfocus`, `awprism`, `awdecide`, `awvoice`
+- **The workspace bridge** (partial) — `awsuite`, `awdk`, `awsh`, `awskills`, `awpack`
 
 ## Named, not yet built
 
