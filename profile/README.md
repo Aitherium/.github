@@ -65,7 +65,7 @@ Every brick below **installs on its own, runs offline, and needs no account.**
 | `awbrain` | Your history as a wiki of linked markdown — claims pinned to the evidence. | — | — | — |
 | [gawbbonet](https://aitherium.github.io/gawbbonet/) | GobboNet campaigns with a real agent brain — scoped memory, graph recall. | `pip install gawbbonet` | 16 | 1 |
 | [aitherkvcache](https://aitherium.github.io/aitherkvcache/) | Near-optimal KV cache quantization for LLM inference — sub-byte compression. | `pip install aither-kvcache` | 70 | 8 |
-| [awrtifact](https://aitherium.github.io/awrtifact/) | Deliberately chunk artifacts into GitHub release assets — the productized aitherkvcache mirror lane. | `pip install awrtifact` | 61 | 17 |
+| [awrtifact](https://aitherium.github.io/awrtifact/) | Deliberately chunk artifacts into GitHub release assets — the productized aitherkvcache mirror lane. | `pip install awrtifact` | 62 | 17 |
 | [AitherZero](https://aitherium.github.io/AitherZero/) | PowerShell 7+ automation framework — numbered, self-describing scripts. | `git clone https://github.com/Aitherium/AitherZero` | 1,681 | 44 |
 | [AitherConnect](https://aitherium.github.io/AitherConnect/) | Browser extension — federated AI search, page context, and the Living OS overlay. | `load unpacked — see the repo` | 167 | 33 |
 | [awreason](https://aitherium.github.io/awreason/) | A portable reasoning client — sessions, phases, thoughts, and the chain that produced the answer. | `pip install awreason` | 21 | 1 |
@@ -129,6 +129,29 @@ Listed on purpose. A named absence can be chased; a silent one is a thing
 nobody remembers.
 
 `awscope` · `awspaces` · `awcache` · `awdeck` · `awforge` · `awasp` · `awlab` · `awdata` · `awmod` · `awlog` · `awresume` · `awsaga` · `awiris`
+
+## Built on
+
+The open-source projects under the bricks. Each one is something we actually
+run: the registry has to name a file in our repo that proves it before it is
+listed here.
+
+[![Blender + Rigify](https://img.shields.io/badge/built%20on-Blender%20%2B%20Rigify-5EC9CC)](https://www.blender.org/) [![CentOS Stream](https://img.shields.io/badge/built%20on-CentOS%20Stream-5EC9CC)](https://www.centos.org/centos-stream/) [![ComfyUI](https://img.shields.io/badge/built%20on-ComfyUI-5EC9CC)](https://github.com/comfyanonymous/ComfyUI) [![Docker](https://img.shields.io/badge/built%20on-Docker-5EC9CC)](https://github.com/moby/moby) [![FFmpeg](https://img.shields.io/badge/built%20on-FFmpeg-5EC9CC)](https://ffmpeg.org/) [![headroom](https://img.shields.io/badge/built%20on-headroom-5EC9CC)](https://github.com/headroomlabs-ai/headroom) [![LanceDB](https://img.shields.io/badge/built%20on-LanceDB-5EC9CC)](https://github.com/lancedb/lancedb) [![llama.cpp](https://img.shields.io/badge/built%20on-llama.cpp-5EC9CC)](https://github.com/ggml-org/llama.cpp) [![Podman](https://img.shields.io/badge/built%20on-Podman-5EC9CC)](https://github.com/containers/podman) [![SANA](https://img.shields.io/badge/built%20on-SANA-5EC9CC)](https://github.com/NVlabs/Sana) [![vLLM](https://img.shields.io/badge/built%20on-vLLM-5EC9CC)](https://github.com/vllm-project/vllm) [![WireGuard](https://img.shields.io/badge/built%20on-WireGuard-5EC9CC)](https://www.wireguard.com/)
+
+| project | what we run it for | license |
+|---|---|---|
+| [Blender + Rigify](https://www.blender.org/) | Headless auto-rigging service for generated characters. | `GPL-2.0-or-later` |
+| [CentOS Stream](https://www.centos.org/centos-stream/) | Base image of awnix — bootable, immutable, built with bootc. | see upstream |
+| [ComfyUI](https://github.com/comfyanonymous/ComfyUI) | Visual generation engine behind media-forge — images, video, and the 3D stack (Hunyuan3D). | `GPL-3.0` |
+| [Docker](https://github.com/moby/moby) | Compose stacks and image builds for the fleet. | `Apache-2.0` |
+| [FFmpeg](https://ffmpeg.org/) | Every media transform — frames, mux, HLS transcode. | `LGPL-2.1+ (GPL in some builds)` |
+| [headroom](https://github.com/headroomlabs-ai/headroom) | Reversible context compression — a sidecar plus agent-callable tools. | `Apache-2.0` |
+| [LanceDB](https://github.com/lancedb/lancedb) | Vector store behind AitherNexus. | `Apache-2.0` |
+| [llama.cpp](https://github.com/ggml-org/llama.cpp) | Local inference engine — llama-server lanes and the Bonsai models (our PrismML fork). | `MIT` |
+| [Podman](https://github.com/containers/podman) | Rootless container runtime; systemd quadlet units for the desktop and appliances. | `Apache-2.0` |
+| [SANA](https://github.com/NVlabs/Sana) | Fast image-generation backend, profile-gated. | see upstream |
+| [vLLM](https://github.com/vllm-project/vllm) | GPU inference lanes, extended by our vLLM mesh plugin. | `Apache-2.0` |
+| [WireGuard](https://www.wireguard.com/) | The private overlay network under AitherNet / AitherMesh. | `GPL-2.0` |
 
 ---
 
