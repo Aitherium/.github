@@ -6,7 +6,7 @@ works in, and the tools it works with.
 Every brick below **installs on its own, runs offline, and needs no account.**
 
 ![bricks](https://img.shields.io/badge/bricks-55-4c6ef5)
-![publishing metrics](https://img.shields.io/badge/publishing%20live%20metrics-55%2F55-4c6ef5)
+![publishing metrics](https://img.shields.io/badge/publishing%20live%20metrics-54%2F55-4c6ef5)
 ![planned](https://img.shields.io/badge/named%20%26%20not%20yet%20built-13-8a8a99)
 
 ➤ **[Browse the whole ecosystem](https://aitherium.github.io/)** — live, from each repo's own manifest.
@@ -17,13 +17,13 @@ Every brick below **installs on its own, runs offline, and needs no account.**
 
 | brick | what it replaces trusting | install | files | tests |
 |---|---|---|---|---|
-| [awdk](https://aitherium.github.io/awdk/) | Build AI agent fleets — 3 lines, any backend, local or cloud. | `pip install awdk` | 2,145 | 594 |
+| [awdk](https://aitherium.github.io/awdk/) | Build AI agent fleets — 3 lines, any backend, local or cloud. | `pip install awdk` | 2,150 | 596 |
 | [awskills](https://aitherium.github.io/awskills/) | Portable agent skills — self-contained procedures an agent loads on demand. | `git clone https://github.com/Aitherium/awskills` | 188 | 1 |
 | [awpack](https://aitherium.github.io/awpack/) | First-party agent packs — the ones we build, versioned and installable on their own. | `git clone https://github.com/Aitherium/awpack` | 29 | 0 |
 | [awm](https://aitherium.github.io/awm/) | A portable, scoped agent memory. | `pip install awm` | 61 | 23 |
 | `aitheros` | One file you run, and the machine has a local AI stack. | — | — | — |
 | `awdaemons` | The AitherOS daemons as one file — no Python, no signing, no install. | — | — | — |
-| [awdesk](https://aitherium.github.io/awdesk/) | Aither World Desk -- the desktop body of AitherOS Online: tray, avatars, decision cards, the Living Desktop as an overlay. | `see the repo -- Electron app (npm install && npx electron .)` | 507 | 1 |
+| [awdesk](https://aitherium.github.io/awdesk/) | Aither World Desk -- the desktop body of AitherOS Online: tray, avatars, decision cards, the Living Desktop as an overlay. | `see the repo -- Electron app (npm install && npx electron .)` | — | — |
 | [awnode](https://aitherium.github.io/awnode/) | A lightweight local gateway — bridges your apps to the AI backends you chose. | `pip install awnode` | 74 | 12 |
 | [awrun](https://aitherium.github.io/awrun/) | A priority-aware queue and dispatcher for agentic runs and ad-hoc CI builds. It also judges whether the runner pool is big enough for the queue it is draining, and can ask a host to grow it -- reserving capacity is zero-sum, so a saturated pool needs more of it, not a different share of it. | `pip install awrun` | 43 | 9 |
 | `awpool` | The free half of the elastic work pool: dispatches public-safe work onto the free GitHub-hosted runners of the public aw* mirrors, so their idle CI minutes become compute. awrun remains the paid/self-hosted lane; this is its free twin. | — | — | — |
@@ -136,20 +136,26 @@ The open-source projects under the bricks. Each one is something we actually
 run: the registry has to name a file in our repo that proves it before it is
 listed here.
 
-[![Blender + Rigify](https://img.shields.io/badge/built%20on-Blender%20%2B%20Rigify-5EC9CC)](https://www.blender.org/) [![CentOS Stream](https://img.shields.io/badge/built%20on-CentOS%20Stream-5EC9CC)](https://www.centos.org/centos-stream/) [![ComfyUI](https://img.shields.io/badge/built%20on-ComfyUI-5EC9CC)](https://github.com/comfyanonymous/ComfyUI) [![Docker](https://img.shields.io/badge/built%20on-Docker-5EC9CC)](https://github.com/moby/moby) [![FFmpeg](https://img.shields.io/badge/built%20on-FFmpeg-5EC9CC)](https://ffmpeg.org/) [![headroom](https://img.shields.io/badge/built%20on-headroom-5EC9CC)](https://github.com/headroomlabs-ai/headroom) [![LanceDB](https://img.shields.io/badge/built%20on-LanceDB-5EC9CC)](https://github.com/lancedb/lancedb) [![llama.cpp](https://img.shields.io/badge/built%20on-llama.cpp-5EC9CC)](https://github.com/ggml-org/llama.cpp) [![Podman](https://img.shields.io/badge/built%20on-Podman-5EC9CC)](https://github.com/containers/podman) [![SANA](https://img.shields.io/badge/built%20on-SANA-5EC9CC)](https://github.com/NVlabs/Sana) [![vLLM](https://img.shields.io/badge/built%20on-vLLM-5EC9CC)](https://github.com/vllm-project/vllm) [![WireGuard](https://img.shields.io/badge/built%20on-WireGuard-5EC9CC)](https://www.wireguard.com/)
+[![Blender + Rigify](https://img.shields.io/badge/built%20on-Blender%20%2B%20Rigify-5EC9CC)](https://www.blender.org/) [![CentOS Stream](https://img.shields.io/badge/built%20on-CentOS%20Stream-5EC9CC)](https://www.centos.org/centos-stream/) [![Chromium](https://img.shields.io/badge/built%20on-Chromium-5EC9CC)](https://www.chromium.org/) [![ComfyUI](https://img.shields.io/badge/built%20on-ComfyUI-5EC9CC)](https://github.com/comfyanonymous/ComfyUI) [![Docker](https://img.shields.io/badge/built%20on-Docker-5EC9CC)](https://github.com/moby/moby) [![FFmpeg](https://img.shields.io/badge/built%20on-FFmpeg-5EC9CC)](https://ffmpeg.org/) [![headroom](https://img.shields.io/badge/built%20on-headroom-5EC9CC)](https://github.com/headroomlabs-ai/headroom) [![Hunyuan3D](https://img.shields.io/badge/built%20on-Hunyuan3D-5EC9CC)](https://github.com/Tencent-Hunyuan/Hunyuan3D-2.1) [![LanceDB](https://img.shields.io/badge/built%20on-LanceDB-5EC9CC)](https://github.com/lancedb/lancedb) [![llama.cpp](https://img.shields.io/badge/built%20on-llama.cpp-5EC9CC)](https://github.com/ggml-org/llama.cpp) [![Next.js](https://img.shields.io/badge/built%20on-Next.js-5EC9CC)](https://github.com/vercel/next.js) [![Playwright](https://img.shields.io/badge/built%20on-Playwright-5EC9CC)](https://github.com/microsoft/playwright) [![Podman](https://img.shields.io/badge/built%20on-Podman-5EC9CC)](https://github.com/containers/podman) [![React](https://img.shields.io/badge/built%20on-React-5EC9CC)](https://github.com/facebook/react) [![repowise](https://img.shields.io/badge/built%20on-repowise-5EC9CC)](https://github.com/repowise-dev/repowise) [![SANA](https://img.shields.io/badge/built%20on-SANA-5EC9CC)](https://github.com/NVlabs/Sana) [![vLLM](https://img.shields.io/badge/built%20on-vLLM-5EC9CC)](https://github.com/vllm-project/vllm) [![WireGuard](https://img.shields.io/badge/built%20on-WireGuard-5EC9CC)](https://www.wireguard.com/)
 
 | project | what we run it for | license |
 |---|---|---|
 | [Blender + Rigify](https://www.blender.org/) | Headless auto-rigging service for generated characters. | `GPL-2.0-or-later` |
-| [CentOS Stream](https://www.centos.org/centos-stream/) | Base image of awnix — bootable, immutable, built with bootc. | see upstream |
+| [CentOS Stream](https://www.centos.org/centos-stream/) | Base image of awnix — bootable, immutable, built with bootc. | `Compilation GPL-2.0; each package under its own license; bootc MIT OR Apache-2.0` |
+| [Chromium](https://www.chromium.org/) | Headless browser engine for AitherBrowser sessions and smoke tests. | `BSD-3-Clause (plus bundled third-party licenses)` |
 | [ComfyUI](https://github.com/comfyanonymous/ComfyUI) | Visual generation engine behind media-forge — images, video, and the 3D stack (Hunyuan3D). | `GPL-3.0` |
 | [Docker](https://github.com/moby/moby) | Compose stacks and image builds for the fleet. | `Apache-2.0` |
 | [FFmpeg](https://ffmpeg.org/) | Every media transform — frames, mux, HLS transcode. | `LGPL-2.1+ (GPL in some builds)` |
 | [headroom](https://github.com/headroomlabs-ai/headroom) | Reversible context compression — a sidecar plus agent-callable tools. | `Apache-2.0` |
+| [Hunyuan3D](https://github.com/Tencent-Hunyuan/Hunyuan3D-2.1) | Image-to-3D mesh generation behind AitherMeshGen (standalone API and ComfyUI nodes). Not affiliated with or endorsed by Tencent. | `Tencent Hunyuan 3D 2.1 Community License (territory excludes the EU, UK and South Korea)` |
 | [LanceDB](https://github.com/lancedb/lancedb) | Vector store behind AitherNexus. | `Apache-2.0` |
 | [llama.cpp](https://github.com/ggml-org/llama.cpp) | Local inference engine — llama-server lanes and the Bonsai models (our PrismML fork). | `MIT` |
+| [Next.js](https://github.com/vercel/next.js) | The framework AitherVeil — the portal and Living OS desktop — is built with. | `MIT` |
+| [Playwright](https://github.com/microsoft/playwright) | Browser automation under AitherBrowser and the AitherVeil e2e suite. | `Apache-2.0` |
 | [Podman](https://github.com/containers/podman) | Rootless container runtime; systemd quadlet units for the desktop and appliances. | `Apache-2.0` |
-| [SANA](https://github.com/NVlabs/Sana) | Fast image-generation backend, profile-gated. | see upstream |
+| [React](https://github.com/facebook/react) | UI library for AitherVeil and its desktop apps. | `MIT` |
+| [repowise](https://github.com/repowise-dev/repowise) | Codebase-intelligence service (pinned 0.31.0) — wiki, risk and symbol lookup exposed to agents over MCP. | `AGPL-3.0-or-later` |
+| [SANA](https://github.com/NVlabs/Sana) | Fast image-generation backend, profile-gated. | `Apache-2.0 (code and the Efficient-Large-Model checkpoints); Gemma terms for its text encoder` |
 | [vLLM](https://github.com/vllm-project/vllm) | GPU inference lanes, extended by our vLLM mesh plugin. | `Apache-2.0` |
 | [WireGuard](https://www.wireguard.com/) | The private overlay network under AitherNet / AitherMesh. | `GPL-2.0` |
 
