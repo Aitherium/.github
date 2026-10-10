@@ -17,7 +17,7 @@ Every brick below **installs on its own, runs offline, and needs no account.**
 
 | brick | what it replaces trusting | install | files | tests |
 |---|---|---|---|---|
-| [awdk](https://aitherium.github.io/awdk/) | Build AI agent fleets — 3 lines, any backend, local or cloud. | `pip install awdk` | 2,388 | 634 |
+| [awdk](https://aitherium.github.io/awdk/) | Build AI agent fleets — 3 lines, any backend, local or cloud. | `pip install awdk` | 2,391 | 635 |
 | [awskills](https://aitherium.github.io/awskills/) | Portable agent skills — self-contained procedures an agent loads on demand. | `git clone https://github.com/Aitherium/awskills` | 189 | 1 |
 | [awpack](https://aitherium.github.io/awpack/) | First-party agent packs — the ones we build, versioned and installable on their own. | `git clone https://github.com/Aitherium/awpack` | 34 | 0 |
 | [awm](https://aitherium.github.io/awm/) | A portable, scoped agent memory. | `pip install awm` | 61 | 23 |
@@ -67,7 +67,7 @@ Every brick below **installs on its own, runs offline, and needs no account.**
 | `awbrain` | Your history as a wiki of linked markdown — claims pinned to the evidence. | — | — | — |
 | [gawbbonet](https://aitherium.github.io/gawbbonet/) | GobboNet campaigns with a real agent brain — scoped memory, graph recall. | `pip install gawbbonet` | 17 | 1 |
 | [aitherkvcache](https://aitherium.github.io/aitherkvcache/) | Near-optimal KV cache quantization for LLM inference — sub-byte compression. | `pip install aither-kvcache` | 70 | 8 |
-| [awrtifact](https://aitherium.github.io/awrtifact/) | Deliberately chunk artifacts into GitHub release assets — the productized aitherkvcache mirror lane. | `pip install awrtifact` | 63 | 18 |
+| [awrtifact](https://aitherium.github.io/awrtifact/) | Deliberately chunk artifacts into GitHub release assets — the productized aitherkvcache mirror lane. | `pip install awrtifact` | 66 | 19 |
 | [AitherZero](https://aitherium.github.io/AitherZero/) | PowerShell 7+ automation framework — numbered, self-describing scripts. | `git clone https://github.com/Aitherium/AitherZero` | 1,686 | 46 |
 | [AitherConnect](https://aitherium.github.io/AitherConnect/) | Browser extension — federated AI search, page context, and the Living OS overlay. | `https://chromewebstore.google.com/detail/awconnect/peeojgjhjficedkncdejbfnacooodbak` | 9 | 0 |
 | [awreason](https://aitherium.github.io/awreason/) | A portable reasoning client — sessions, phases, thoughts, and the chain that produced the answer. | `pip install awreason` | 22 | 1 |
@@ -80,7 +80,7 @@ Every brick below **installs on its own, runs offline, and needs no account.**
 | [awgym](https://aitherium.github.io/awgym/) | An ARC training gym — a game a world model can watch, and six roles that play through it. | `pip install awgym` | 69 | 13 |
 | [awpredict](https://aitherium.github.io/awpredict/) | Predict what your environment does next, and how surprised you were. | `pip install git+https://github.com/Aitherium/awpredict.git` | 46 | 10 |
 | `awevolve` | Point an agent at a file and a command that scores it, and let it improve. | — | — | — |
-| [awsh](https://aitherium.github.io/awsh/) | Your terminal answers you -- type a question where a command would go. | `npm i -g @aitherium/awsh` | 1,222 | 88 |
+| [awsh](https://aitherium.github.io/awsh/) | Your terminal answers you -- type a question where a command would go. | `npm i -g @aitherium/awsh` | — | — |
 | `awmine` | Mine what your agents did -- outcomes, lessons and procedures out of the transcripts they left behind. | — | — | — |
 | [awrise](https://aitherium.github.io/awrise/) | Wake an agent on a schedule, let it do one thing, and put it back to sleep. | `pip install awrise` | 63 | 32 |
 | [awkno](https://aitherium.github.io/awkno/) | The man page for the Aither World — every brick, stack and law, offline. | `pip install awkno` | 187 | 1 |
