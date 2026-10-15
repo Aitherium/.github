@@ -17,7 +17,7 @@ Every brick below **installs on its own, runs offline, and needs no account.**
 
 | brick | what it replaces trusting | install | files | tests |
 |---|---|---|---|---|
-| [awdk](https://aitherium.github.io/awdk/) | Build AI agent fleets — 3 lines, any backend, local or cloud. | `pip install awdk` | 2,407 | 643 |
+| [awdk](https://aitherium.github.io/awdk/) | Build AI agent fleets — 3 lines, any backend, local or cloud. | `pip install awdk` | 2,426 | 654 |
 | [awskills](https://aitherium.github.io/awskills/) | Portable agent skills — self-contained procedures an agent loads on demand. | `git clone https://github.com/Aitherium/awskills` | 189 | 1 |
 | [awpack](https://aitherium.github.io/awpack/) | First-party agent packs — the ones we build, versioned and installable on their own. | `git clone https://github.com/Aitherium/awpack` | 34 | 0 |
 | [awm](https://aitherium.github.io/awm/) | A portable, scoped agent memory. | `pip install awm` | 61 | 23 |
@@ -49,6 +49,7 @@ Every brick below **installs on its own, runs offline, and needs no account.**
 | [awrelay](https://aitherium.github.io/awrelay/) | Portable agent messaging — findings, alerts, coordination. | `pip install awrelay` | 45 | 12 |
 | [awask](https://aitherium.github.io/awask/) | Your agent asks you a question — and acts on your answer. | `pip install awask` | 57 | 10 |
 | [awmail](https://aitherium.github.io/awmail/) | Give an agent an email address — send, and actually receive. | `pip install awmail` | 26 | 2 |
+| `awdiscord` | Put any agent on Discord as a real bot, with an operator in the loop. | — | — | — |
 | `mediaforge` | The creative studio — search the boards, render scenes, keep the character. | — | — | — |
 | [awnet](https://aitherium.github.io/awnet/) | The agentic web — agents host a mesh, and agents join one. | `pip install awnet` | 24 | 2 |
 | `awswarm` | Run one model too big for any single GPU across a pool of small ones. | — | — | — |
@@ -80,7 +81,7 @@ Every brick below **installs on its own, runs offline, and needs no account.**
 | [awgym](https://aitherium.github.io/awgym/) | An ARC training gym — a game a world model can watch, and six roles that play through it. | `pip install awgym` | 69 | 13 |
 | [awpredict](https://aitherium.github.io/awpredict/) | Predict what your environment does next, and how surprised you were. | `pip install git+https://github.com/Aitherium/awpredict.git` | 46 | 10 |
 | `awevolve` | Point an agent at a file and a command that scores it, and let it improve. | — | — | — |
-| [awsh](https://aitherium.github.io/awsh/) | Your terminal answers you -- type a question where a command would go. | `npm i -g @aitherium/awsh` | — | — |
+| [awsh](https://aitherium.github.io/awsh/) | Your terminal answers you -- type a question where a command would go. | `npm i -g @aitherium/awsh` | 1,227 | 91 |
 | `awmine` | Mine what your agents did -- outcomes, lessons and procedures out of the transcripts they left behind. | — | — | — |
 | [awrise](https://aitherium.github.io/awrise/) | Wake an agent on a schedule, let it do one thing, and put it back to sleep. | `pip install awrise` | 63 | 32 |
 | [awkno](https://aitherium.github.io/awkno/) | The man page for the Aither World — every brick, stack and law, offline. | `pip install awkno` | 187 | 1 |
