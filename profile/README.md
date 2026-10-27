@@ -5,6 +5,8 @@ works in, and the tools it works with.
 
 Every brick below **installs on its own, runs offline, and needs no account.**
 
+➤ **[Sponsor the work](https://github.com/sponsors/Aitherium)** — monthly or one-time; the [money record](https://aitherium.org/transparency.html#support-rail) is public and carries the chain, not the amounts.
+
 ![bricks](https://img.shields.io/badge/bricks-55-4c6ef5)
 ![publishing metrics](https://img.shields.io/badge/publishing%20live%20metrics-54%2F55-4c6ef5)
 ![planned](https://img.shields.io/badge/named%20%26%20not%20yet%20built-14-8a8a99)
