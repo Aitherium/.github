@@ -23,7 +23,7 @@ Every brick below **installs on its own, runs offline, and needs no account.**
 | [awm](https://aitherium.github.io/awm/) | A portable, scoped agent memory. | `pip install awm` | 62 | 23 |
 | `aitheros` | One file you run, and the machine has a local AI stack. | — | — | — |
 | `awdaemons` | The AitherOS daemons as one file — no Python, no signing, no install. | — | — | — |
-| [awdesk](https://aitherium.github.io/awdesk/) | Aither World Desk -- the desktop body of AitherOS Online: tray, avatars, decision cards, the Living Desktop as an overlay. | `see the repo -- Electron app (npm install && npx electron .)` | 710 | 1 |
+| [awdesk](https://aitherium.github.io/awdesk/) | Aither World Desk -- the desktop body of AitherOS Online: tray, avatars, decision cards, the Living Desktop as an overlay. | `see the repo -- Electron app (npm install && npx electron .)` | 714 | 1 |
 | [awnode](https://aitherium.github.io/awnode/) | A lightweight local gateway — bridges your apps to the AI backends you chose. | `pip install awnode` | 83 | 20 |
 | [awrun](https://aitherium.github.io/awrun/) | A priority-aware queue and dispatcher for agentic runs and ad-hoc CI builds. It also judges whether the runner pool is big enough for the queue it is draining, and can ask a host to grow it -- reserving capacity is zero-sum, so a saturated pool needs more of it, not a different share of it. | `pip install awrun` | 46 | 11 |
 | `awpool` | The free half of the elastic work pool: dispatches public-safe work onto the free GitHub-hosted runners of the public aw* mirrors, so their idle CI minutes become compute. awrun remains the paid/self-hosted lane; this is its free twin. | — | — | — |
@@ -107,6 +107,7 @@ because a fabricated zero reads as a measurement.*
 - **Provenance** (partial) — `awseal`, `awshare`, `awdit`, `awbac`
 - **Many agents, one repo** (ready) — `awgit`, `awgraph`, `awrelay`, `awm`
 - **The front door** (partial) — `awnboard`, `awnest`, `awiam`, `awbac`, `awdit`
+- **Aither World Services** (partial) — `awnix`, `awdaemons`, `awrun`, `awiam`, `awbac`, `awdit`, `awseal`, `awrelay`, `awtunnel`, `awpack`
 - **Identity, authority, and the record** (partial) — `awiam`, `awbac`, `awdit`
 - **One surface — agent panels, not hand-built UIs** (partial) — `awkit`, `awdk`, `awnode`, `awiam`, `awbac`
 - **The reasoning loop** (partial) — `awreason`, `awprism`, `awrepl`, `awrecurse`
