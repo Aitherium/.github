@@ -6,7 +6,7 @@ works in, and the tools it works with.
 Every brick below **installs on its own, runs offline, and needs no account.**
 
 ![bricks](https://img.shields.io/badge/bricks-71-4c6ef5)
-![publishing metrics](https://img.shields.io/badge/publishing%20live%20metrics-70%2F71-4c6ef5)
+![publishing metrics](https://img.shields.io/badge/publishing%20live%20metrics-69%2F71-4c6ef5)
 ![planned](https://img.shields.io/badge/named%20%26%20not%20yet%20built-19-8a8a99)
 
 ➤ **[Browse the whole ecosystem](https://aitherium.github.io/)** — live, from each repo's own manifest.
@@ -94,22 +94,22 @@ Every brick with its one-line purpose and status, and a Mermaid version of the m
 
 | brick | what it replaces trusting | install | files | tests |
 |---|---|---|---|---|
-| [awdk](https://aitherium.github.io/awdk/) | Build AI agent fleets — 3 lines, any backend, local or cloud. | `pip install awdk` | 2,718 | 798 |
-| [awskills](https://aitherium.github.io/awskills/) | Portable agent skills — self-contained procedures an agent loads on demand. | `git clone https://github.com/Aitherium/awskills` | 207 | 1 |
+| [awdk](https://aitherium.github.io/awdk/) | Build AI agent fleets — 3 lines, any backend, local or cloud. | `pip install awdk` | 2,823 | 844 |
+| [awskills](https://aitherium.github.io/awskills/) | Portable agent skills — self-contained procedures an agent loads on demand. | `git clone https://github.com/Aitherium/awskills` | 214 | 1 |
 | [awpack](https://aitherium.github.io/awpack/) | First-party agent packs — the ones we build, versioned and installable on their own. | `git clone https://github.com/Aitherium/awpack` | 51 | 1 |
 | [awm](https://aitherium.github.io/awm/) | A portable, scoped agent memory. | `pip install awm` | 63 | 23 |
 | `aitheros` | One file you run, and the machine has a local AI stack. | — | — | — |
 | `awdaemons` | The AitherOS daemons as one file — no Python, no signing, no install. | — | — | — |
-| [awdesk](https://aitherium.github.io/awdesk/) | Aither World Desk -- the desktop body of AitherOS Online: tray, avatars, decision cards, the Living Desktop as an overlay. | `see the repo -- Electron app (npm install && npx electron .)` | 885 | 1 |
-| [awnode](https://aitherium.github.io/awnode/) | A lightweight local gateway — bridges your apps to the AI backends you chose. | `pip install awnode` | 90 | 24 |
-| [awrun](https://aitherium.github.io/awrun/) | A priority-aware queue and dispatcher for agentic runs and ad-hoc CI builds. It also judges whether the runner pool is big enough for the queue it is draining, and can ask a host to grow it -- reserving capacity is zero-sum, so a saturated pool needs more of it, not a different share of it. | `pip install awrun` | 52 | 14 |
-| [awpool](https://aitherium.github.io/awpool/) | The free half of the elastic work pool: dispatches public-safe work onto the free GitHub-hosted runners of the public aw* mirrors, so their idle CI minutes become compute. awrun remains the paid/self-hosted lane; this is its free twin. | `pip install awpool` | 22 | 4 |
+| [awdesk](https://aitherium.github.io/awdesk/) | Aither World Desk -- the desktop body of AitherOS Online: tray, avatars, decision cards, the Living Desktop as an overlay. | `see the repo -- Electron app (npm install && npx electron .)` | 1,251 | 1 |
+| [awnode](https://aitherium.github.io/awnode/) | A lightweight local gateway — bridges your apps to the AI backends you chose. | `pip install awnode` | 93 | 25 |
+| [awrun](https://aitherium.github.io/awrun/) | A priority-aware queue and dispatcher for agentic runs and ad-hoc CI builds. It also judges whether the runner pool is big enough for the queue it is draining, and can ask a host to grow it -- reserving capacity is zero-sum, so a saturated pool needs more of it, not a different share of it. | `pip install awrun` | 59 | 17 |
+| [awpool](https://aitherium.github.io/awpool/) | The free half of the elastic work pool: dispatches public-safe work onto the free GitHub-hosted runners of the public aw* mirrors, so their idle CI minutes become compute. awrun remains the paid/self-hosted lane; this is its free twin. | `pip install awpool` | 26 | 4 |
 | `awedgerunner` | Run agent and CI work on edge runners nobody has to rack -- a volunteer's idle GPU, a phone on your own mesh, an edge worker, a free or spot CI runner -- under a lease with a hard budget cap, a named payer and an expiry. | — | — | — |
 | [awgraph](https://aitherium.github.io/awgraph/) | A semantic code graph for agents — AST + tree-sitter, call graphs. | `pip install awgraph` | 68 | 26 |
-| [awgit](https://aitherium.github.io/awgit/) | Semantic version control on top of git — edit-ops and leases. | `pip install awgit` | 116 | 32 |
+| [awgit](https://aitherium.github.io/awgit/) | Semantic version control on top of git — edit-ops and leases. | `pip install awgit` | 122 | 35 |
 | [awdelphi](https://aitherium.github.io/awdelphi/) | Anonymous multi-round expert panels — a converged answer with a trace. | `pip install awdelphi` | 37 | 7 |
 | [awclassify](https://aitherium.github.io/awclassify/) | Classify any document -- what it is, who may read it, who it is for, what it is about. | `pip install awclassify` | 29 | 2 |
-| [awdecide](https://aitherium.github.io/awdecide/) | One typed-decision contract -- choice / score / bool with a probability -- over a ladder of backends you already run (rules, tiny local models, an LLM's logprobs), fail-closed, with a Brier ledger that resolves every decision against its outcome. | `pip install awdecide` | 89 | 9 |
+| [awdecide](https://aitherium.github.io/awdecide/) | One typed-decision contract -- choice / score / bool with a probability -- over a ladder of backends you already run (rules, tiny local models, an LLM's logprobs), fail-closed, with a Brier ledger that resolves every decision against its outcome. | `pip install awdecide` | 92 | 11 |
 | [awtoll](https://aitherium.github.io/awtoll/) | What every tool call costs you in context, measured from your own transcripts. | `pip install awtoll` | 31 | 1 |
 | [awseal](https://aitherium.github.io/awseal/) | Sign an artifact so a stranger can verify it. | `pip install awseal` | 29 | 2 |
 | [awshare](https://aitherium.github.io/awshare/) | Publish an artifact and fetch it back verified. | `pip install awshare` | 32 | 4 |
@@ -124,11 +124,11 @@ Every brick with its one-line purpose and status, and a Mermaid version of the m
 | [awnboard](https://aitherium.github.io/awnboard/) | A front gate you can put in front of anything, and hand someone the key to. | `pip install awnboard` | 27 | 2 |
 | [awnix](https://aitherium.github.io/awnix/) | A Linux you can hand to an agent — immutable base, capabilities included. | `podman build -t awnix:latest -f Containerfile .` | 21 | 0 |
 | [awrecover](https://aitherium.github.io/awrecover/) | Labelled snapshots with an all-or-nothing restore. | `pip install awrecover` | 30 | 6 |
-| [awstorage](https://aitherium.github.io/awstorage/) | Every drive on every node, indexed, classified and diffed -- so you can see what you own before you delete it. | `pip install awstorage` | 81 | 27 |
-| [awrelay](https://aitherium.github.io/awrelay/) | Portable agent messaging — findings, alerts, coordination. | `pip install awrelay` | 48 | 13 |
-| [awask](https://aitherium.github.io/awask/) | Your agent asks you a question — and acts on your answer. | `pip install awask` | 73 | 17 |
+| [awstorage](https://aitherium.github.io/awstorage/) | Every drive on every node, indexed, classified and diffed -- so you can see what you own before you delete it. | `pip install awstorage` | 82 | 28 |
+| [awrelay](https://aitherium.github.io/awrelay/) | Portable agent messaging — findings, alerts, coordination. | `pip install awrelay` | 49 | 14 |
+| [awask](https://aitherium.github.io/awask/) | Your agent asks you a question — and acts on your answer. | `pip install awask` | 76 | 17 |
 | [awmail](https://aitherium.github.io/awmail/) | Give an agent an email address — send, and actually receive. | `pip install awmail` | 28 | 2 |
-| [awdiscord](https://aitherium.github.io/awdiscord/) | Put any agent on Discord as a real bot, with an operator in the loop. | `pip install git+https://github.com/Aitherium/awdiscord.git` | 144 | 67 |
+| [awdiscord](https://aitherium.github.io/awdiscord/) | Put any agent on Discord as a real bot, with an operator in the loop. | `pip install git+https://github.com/Aitherium/awdiscord.git` | 212 | 113 |
 | `mediaforge` | The creative studio — search the boards, render scenes, keep the character. | — | — | — |
 | [awnet](https://aitherium.github.io/awnet/) | The agentic web — agents host a mesh, and agents join one. | `pip install awnet` | 26 | 2 |
 | [awswarm](https://aitherium.github.io/awswarm/) | Run one model too big for any single GPU across a pool of small ones. | `pip install awswarm` | 38 | 10 |
@@ -137,19 +137,19 @@ Every brick with its one-line purpose and status, and a Mermaid version of the m
 | [awbrowse](https://aitherium.github.io/awbrowse/) | A portable browser client — navigate, console, network, DOM, screenshot. | `pip install awbrowse` | 30 | 4 |
 | `awprove` | Drive a page as the real user, check what rendered, and get a test that goes red if it stops being true. | — | — | — |
 | [awvoice](https://aitherium.github.io/awvoice/) | Hear and speak — transcribe audio, synthesize a voice. | `pip install awvoice` | 42 | 10 |
-| [awvision](https://aitherium.github.io/awvision/) | See an image — describe it, ask it a question, compare two. | `pip install awvision` | 27 | 3 |
+| [awvision](https://aitherium.github.io/awvision/) | See an image — describe it, ask it a question, compare two. | `pip install awvision` | 29 | 4 |
 | `awcams` | Private camera recording and one-line event summaries, on storage you own. | — | — | — |
-| [awscreen](https://aitherium.github.io/awscreen/) | See this machine — what is on screen, and where to click it. | `pip install awscreen` | 29 | 4 |
+| [awscreen](https://aitherium.github.io/awscreen/) | See this machine — what is on screen, and where to click it. | `pip install awscreen` | 68 | 22 |
 | [awkit](https://aitherium.github.io/awkit/) | Render an agent panel from a tool result — one component, any React app. | `git clone https://github.com/Aitherium/awkit` | 630 | 0 |
 | [awbeads](https://aitherium.github.io/awbeads/) | A spatial canvas for a page — arrange things, connect them, and keep the arrangement. | `git clone https://github.com/Aitherium/awbeads` | — | — |
-| [awsprite](https://aitherium.github.io/awsprite/) | Hatch a companion that grows only from what you teach it, then take it home. | `pip install awsprite` | 29 | 8 |
-| [awbonsai](https://aitherium.github.io/awbonsai/) | Run a real model in the visitor's own browser — no server round trip, no upload. | `git clone https://github.com/Aitherium/awbonsai` | 25 | 2 |
-| [awknowledge](https://aitherium.github.io/awknowledge/) | How to run a coding agent so the result survives — the laws, with evidence. | `read it — https://aitherium.github.io/awknowledge/` | 142 | 0 |
+| [awsprite](https://aitherium.github.io/awsprite/) | Hatch a companion that grows only from what you teach it, then take it home. | `pip install awsprite` | 34 | 8 |
+| [awbonsai](https://aitherium.github.io/awbonsai/) | Run a real model in the visitor's own browser — no server round trip, no upload. | `git clone https://github.com/Aitherium/awbonsai` | — | — |
+| [awknowledge](https://aitherium.github.io/awknowledge/) | How to run a coding agent so the result survives — the laws, with evidence. | `read it — https://aitherium.github.io/awknowledge/` | 146 | 0 |
 | [awbrain](https://aitherium.github.io/awbrain/) | Your history as a wiki of linked markdown — claims pinned to the evidence. | `pip install awbrain` | 28 | 1 |
 | [gawbbonet](https://aitherium.github.io/gawbbonet/) | GobboNet campaigns with a real agent brain — scoped memory, graph recall. | `pip install gawbbonet` | 19 | 1 |
 | [aitherkvcache](https://aitherium.github.io/aitherkvcache/) | Near-optimal KV cache quantization for LLM inference — sub-byte compression. | `pip install aither-kvcache` | 72 | 8 |
-| [awrtifact](https://aitherium.github.io/awrtifact/) | Deliberately chunk artifacts into GitHub release assets — the productized aitherkvcache mirror lane. | `pip install awrtifact` | 76 | 23 |
-| [AitherZero](https://aitherium.github.io/AitherZero/) | PowerShell 7+ automation framework — numbered, self-describing scripts. | `git clone https://github.com/Aitherium/AitherZero` | 1,676 | 49 |
+| [awrtifact](https://aitherium.github.io/awrtifact/) | Deliberately chunk artifacts into GitHub release assets — the productized aitherkvcache mirror lane. | `pip install awrtifact` | 77 | 24 |
+| [AitherZero](https://aitherium.github.io/AitherZero/) | PowerShell 7+ automation framework — numbered, self-describing scripts. | `git clone https://github.com/Aitherium/AitherZero` | 1,685 | 51 |
 | [AitherConnect](https://aitherium.github.io/AitherConnect/) | Browser extension — federated AI search, page context, and the Living OS overlay. | `https://chromewebstore.google.com/detail/awconnect/peeojgjhjficedkncdejbfnacooodbak` | 11 | 0 |
 | [awreason](https://aitherium.github.io/awreason/) | A portable reasoning client — sessions, phases, thoughts, and the chain that produced the answer. | `pip install awreason` | 24 | 1 |
 | [awrecurse](https://aitherium.github.io/awrecurse/) | Answer a question over a context far larger than the window — recursively, with the trace kept. | `pip install awrecurse` | 29 | 4 |
@@ -163,14 +163,14 @@ Every brick with its one-line purpose and status, and a Mermaid version of the m
 | [awevolve](https://aitherium.github.io/awevolve/) | Point an agent at a file and a command that scores it, and let it improve. | `pip install awevolve` | 28 | 1 |
 | [awsh](https://aitherium.github.io/awsh/) | Your terminal answers you -- type a question where a command would go. | `npm i -g @aitherium/awsh` | 1,255 | 106 |
 | [awmine](https://aitherium.github.io/awmine/) | Mine what your agents did -- outcomes, lessons and procedures out of the transcripts they left behind. | `pip install git+https://github.com/Aitherium/awmine.git` | 53 | 21 |
-| [awrise](https://aitherium.github.io/awrise/) | Wake an agent on a schedule, let it do one thing, and put it back to sleep. | `pip install awrise` | 68 | 33 |
-| [awkno](https://aitherium.github.io/awkno/) | The man page for the Aither World — every brick, stack and law, offline. | `pip install awkno` | 203 | 2 |
+| [awrise](https://aitherium.github.io/awrise/) | Wake an agent on a schedule, let it do one thing, and put it back to sleep. | `pip install awrise` | 70 | 34 |
+| [awkno](https://aitherium.github.io/awkno/) | The man page for the Aither World — every brick, stack and law, offline. | `pip install awkno` | 214 | 3 |
 | [awwall](https://aitherium.github.io/awwall/) | Say what a workload may reach, and watch everything else fail closed. | `pip install awwall` | 21 | 2 |
 | [awrouter](https://aitherium.github.io/awrouter/) | OpenRouter for your own fleet: pick a model backend by cost/latency/ capability, fail over, fit the context window, stream. Standalone, OpenAI-compatible, no Aither-specifics required to be valuable. | `pip install awrouter` | 34 | 6 |
 | [awembed](https://aitherium.github.io/awembed/) | Train an embedding model that knows your corpus, and prove it beats the big one. | `pip install awembed` | 34 | 3 |
 | [awtax](https://aitherium.github.io/awtax/) | Turn any tax PDF -- returns, W-2, 1099, statements, even scans -- into structured data you can check. | `pip install awtax` | 26 | 1 |
 | [awflow](https://aitherium.github.io/awflow/) | A deterministic workflow runtime — chain agent calls with journal replay and budget control. | `pip install aitherium-awflow` | 31 | 5 |
-| [awsettings](https://aitherium.github.io/awsettings/) | Your agent's permissions and config, following you to the next machine. | `pip install awsettings` | 56 | 19 |
+| [awsettings](https://aitherium.github.io/awsettings/) | Your agent's permissions and config, following you to the next machine. | `pip install awsettings` | 59 | 21 |
 | [awavatar](https://aitherium.github.io/awavatar/) | One character spec in, a rigged, animated, multi-style avatar pack out. | `pip install awavatar` | 28 | 3 |
 
 *Files and tests are quoted from each repository's own published manifest, not
